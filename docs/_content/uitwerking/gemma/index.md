@@ -18,7 +18,11 @@ In het project rondom het veilig werken met deze API's (gestandaardiseerde gegev
 Zie de [update van de GEMMA architectuurprincipes](./principes/index.md)
 
 ### GEMMA Bedrijfsarchitectuur wijzigingen
-...
+Binnen de GEMMA bedrijfsarchitectuur zijn de gemeentelijke bedrijfsfuncties en bedrijfsobjectenmodel beschreven. Een bedrijfsfunctiemodel is een beschrijving van de functies die een gemeente uitvoert, onafhankelijk van hoe de processen zijn ingericht. Een bedrijfsobjectmodel is een conceptueel gegevensmodel dat laat zien wat de belangrijkste gegevensverzamelingen van een gemeente zijn. Deze twee modellen beschrijven bedrijfsaspecten die de basis vormen voor het inrichten van informatievoorziening. 
+
+In het project rondom het veilig werken met deze API's worden naar verwachting zowel bedrijfsfuncties als bedrijfsobjecten rondom het opstellen en beheren van autorisatieprofielen en identiteiten toegevoegd.
+
+Zie de [update van de GEMMA bedrijfsarchitectuur](./bedrijfsarchitectuur/index.md)
 
 ### GEMMA bedrijfsfuncties
 ...
