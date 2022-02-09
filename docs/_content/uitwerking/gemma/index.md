@@ -24,11 +24,7 @@ In het project rondom het veilig werken met deze API's worden naar verwachting z
 
 Zie de [update van de GEMMA bedrijfsarchitectuur](./bedrijfsarchitectuur/index.md)
 
-### GEMMA bedrijfsfuncties
-...
-
-### GEMMA Bedrijfsobjecten
-...
-
 ### GEMMA Informatiearchitectuur
-...
+De GEMMA informatiearchitectuur bestaat uit de gegevens- en berichtenarchitectuur en de GEMMA Applicatiearchitectuur met applicatiefuncties en referentiecomponenten. Met name binnen de GEMMA Applicatiearchitectuur zal het uitwerken van de referentiearchitectuur voor het veilig werken met API's leiden tot aanvullingen en wijzigingen. Hierbij valt te denken aan toevoeging van referentiecomponenten met bijbehorende applicatiefuncties en standaarden en het aanpassen van de verschillende bijbehorende architectuurplaten.
+
+ Zie de [update van de GEMMA informatiearchitectuur](./informatiearchitectuur/index.md)
