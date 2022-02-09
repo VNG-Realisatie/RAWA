@@ -1,6 +1,6 @@
 ---
-title: "Gegevenswoordenboek IAM"
-name: Gegevenswoordenboek IAM
+title: "Terminologie"
+name: Terminologie 
 date: 09-02-2022
 ---
 ## Terminologie
