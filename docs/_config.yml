@@ -45,8 +45,8 @@ exclude:
 remote_theme: VNG-Realisatie/jekyll-theme-vng
 #remote_theme: maykinmedia/jekyll-theme-vng 
 
-github: VNG-Realisatie/gemma-verwerkingenlogging
+github: VNG-Realisatie/IAM
 
 theme: jekyll-theme-time-machine
 
-project_name: gemma-verwerkingenlogging
+project_name: IAM

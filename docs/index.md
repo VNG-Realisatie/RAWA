@@ -1,44 +1,45 @@
 ---
-title: "API-standaard voor logging van verwerkingen"
-name: API
-date: 14-04-2021
+title: "GEMMA Identity en Access Management"
+name: IAM
+date: 09-02-2022
 ---
 
-Organisaties die persoonsgegevens verwerken zijn conform de [Algemene Verordening Gegevensbescherming (AVG)](https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg) en de [Uitvoeringswet AVG](https://wetten.overheid.nl/BWBR0040940/2019-02-19) verplicht om aan te kunnen tonen dat een verwerking van persoonsgegevens aan de belangrijkste beginselen van verwerking voldoet, zoals rechtmatigheid, transparantie, doelbinding en juistheid. Om aan deze verantwoordingsplicht te kunnen voldoen is het van belang dat per verwerking de belangrijkste metagegevens van de verwerkingen worden vastgelegd. Standaardisatie van de vastlegging van verwerkingen is van belang om de eenduidigheid en toegankelijkheid van deze gegevens te borgen. Door VNG-Realisatie is de Verwerkingenlogging API-standaard ontwikkeld als onderdeel van de GEMMA referentiearchitectuur. Deze API-standaard biedt leveranciers van informatiesystemen gestandaardiseerde API-specificaties voor het vastleggen en ontsluiten van de logging van verwerkingen.
+Gemeenten gaan in toenemende mate gebruik maken van API's voor het ophalen en muteren van gegevens in
+bronregistraties en het ontvangen van notificaties over plaatsgevonden gebeurtenissen. Tevens gaan gemeenten ook in toenemende mate zelf API's aanbieden voor zowel in- als extern gebruik. Een aantal  API-specificaties behorende tot GEMMA, zoals de Haal Centraal en zaakgericht werken API's zijn gerealiseerd en vastgesteld en nu is het tijd om deze in gebruik te nemen.
+Gemeenten hebben behoefte aan een uitbreiding van de GEMMA referentiearchitectuur waarin is beschreven
+welke referentiecomponenten binnen de GEMMA modelarchitectuur nodig zijn en hoe ze moeten worden ingericht
+om veilig en transparant met API's te kunnen werken.
 
-## Werkingsgebied 
-Het werkingsgebied voor deze standaard is: gemeenten en gemeentelijke samenwerkingsverbanden.
+In het GEMMA Identity en Access Management project wordt door VNG Realisatie samen met een externe kennispartner (SonicBee) gewerkt aan het uitwerken van een referentiearchitectuur voor het veilig en transparant kunnen gebruiken van API's.
 
-## Status van de API-standaard 
-Deze API-standaard is in ontwikkeling. Momenteel heeft de standaard een status van Release Candidate. Dit houdt in dat de 1.0 versie van de standaard in principe klaar is en geimplementeerd kan worden. Partijen die implementaties van de API-standaard ontwikkelen kunnen gedurende de Release Candidate fase hun bevindingen terugkoppelen naar het project. Deze bevindingen kunnen leiden tot een nieuwe Release Candidate, of worden meegenomen in de definitieve 1.0 versie van de standaard. De beoogde einddatum voor de Release Candidate versie is 1 september 2021. Op de [voortgangspagina](./_content/achtergronddocumentatie/voortgang.md) wordt bijgehouden welke wijzigingen in de API-standaard zijn aangebracht.
+## Deliverables
+* Uitbreiding en aanpassing van de GEMMA modelarchitectuur met referentiecomponenten en
+bijbehorende functionele afbakening op de genoemde aspecten
+* Beschrijving van de meest gerede inrichtingsscenario's van de verschillende componenten
+* Beschrijving van bestaande best practices van gemeenten
+* Handreiking voor implementatie
+* Beschrijving van afspraken, standaarden en eventueel benodigde componenten voor werken met
+API's
 
-## Inhoud van de API-standaard
-- [Informatie- en gegevensmodel](./_content/gegevensmodel/index.md)
-- [API-specificaties (bewerking)](./_content/api-write/index.md)
-- [API-specificaties (inzage)](./_content/api-read/index.md)
-- [Referentieimplementatie van een verwerkingenlogregister]((./_content/referentieimplementatie/index.md))
+## Status 
+Het project is in begin februari 2022 gestart. De verwachtte doorlooptijd van de eerste fase van het project is drie tot vier maanden. Het projectteam werkt in sprints van drie weken. De sprintplanning van het project is op deze site te vinden. Na afloop van een sprint worden de resulaten van de sprint in een publiek toegankelijke demo gepresenteerd.
 
-
-## Documentatie
-- [Productvisie](./_content/productvisie/index.md)
-- [Quickstart Guide](./_content/quickstart/index.md)
-- [Architectuur](./_content/architectuur/index.md)
-- [Informatie- en gegevensmodel](./_content/gegevensmodel/index.md)
-- [API-specificaties (bewerking)](./_content/api-write/index.md)
-- [API-specificaties (inzage)](./_content/api-read/index.md)
-- [Achtergronddocumentatie](./_content/achtergronddocumentatie/index.md)
-
-## Gerelateerde standaarden
-* [GEMMA Verwerkingsactiviteiten](https://github.com/VNG-Realisatie/gemma-verwerkingsactiviteiten)
+## Uitwerking deelonderwerpen
+- [Scope van het project](./_content/scope/index.md)
+- [Onderkende cases](./_content/uitwerking/cases/index.md)
+- [Gemeentelijke best-practices](./_content/uitwerking/bestpractices/index.md)
+- [Uitbreiding GEMMA](./_content/uitwerking/gemma/index.md)
+- [Inrichtingsscenarios](./_content/uitwerking/inrichtingsscenarios/index.md)
+- [Terminologie](./_content/uitwerking/terminologie/index.md)
 
 ## Bijdragen aan het project
 Gemeenten en leveranciers worden aangemoedigd om bij te dragen aan het project. Onderstaande links geven informatie over hoe u uw bijdrage kan leveren.
-- Hoe u kunt [bijdragen](https://github.com/VNG-Realisatie/Tutorial/blob/master/CONTRIBUTING.md)
-- [Omgangsvormen](https://github.com/VNG-Realisatie/Tutorial/blob/master/CODE_OF_CONDUCT.md)
+* Hoe u kunt [bijdragen](https://github.com/VNG-Realisatie/Tutorial/blob/master/CONTRIBUTING.md)
+* [Omgangsvormen](https://github.com/VNG-Realisatie/Tutorial/blob/master/CODE_OF_CONDUCT.md)
 
 ## Beheer en ondersteuning
 Contact: standaarden.ondersteuning@vng.nl
 
 ## Licentie
-Copyright &copy; VNG Realisatie 2020
-Licensed under the [EUPL](https://github.com/VNG-Realisatie/gemma-verwerkingenlogging/blob/master/LICENCE.md)
+Copyright &copy; VNG Realisatie 2022
+Licensed under the [EUPL](https://github.com/VNG-Realisatie/IAM/blob/master/LICENSE.md)
