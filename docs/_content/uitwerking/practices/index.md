@@ -1,7 +1,7 @@
 ---
-title: "Best practices IAM"
-name: Best practices IAM
+title: "(b)est practices"
+name: (best) practices
 ---
-## Best practices
+## (best) practices
 ...
 
