@@ -1,9 +1,6 @@
 - name: Scope
   link: /scope/
   weight: 10
-- name: Termen en begrippen
-  link: /gegevensmodel/
-  weight: 20
 - name: Uitwerking
   link: /uitwerking/
   weight: 30    
