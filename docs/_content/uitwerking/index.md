@@ -1,32 +1,27 @@
 ---
-title: "Documentatie"
-name: Documentatie
+title: "Uitwerking project"
+name: Uitwerking project
 ---
 
-De documentatie van het project bestaat uit ....
+Binnen het project rondom het veilig werken met API's worden 
 
-# Gebruikscases
+## Gebruikscases
 ...
 
-# GEMMA Wijzigingen en toevoegingen
-
-## GEMMA Architectuurprincipes
+## Meest gerede inrichtingsscenario’s
 ...
 
-## GEMMA Bedrijfsarchitectuur wijzigingen
+## (best) practices
 ...
 
-## GEMMA bedrijfsfuncties
+## Implementatiescenarios
 ...
 
-## GEMMA Bedrijfsobjecten
-...
+## Aanpassingen aan de GEMMA 
+De GEMMA-referentiearchitectuur is de landelijke referentiearchitectuur voor gemeenten – een verzameling samenhangende kaders, richtlijnen, referentiemodellen en standaarden die gemeenten helpt bij het inrichten van hun informatievoorziening en hun processen. De GEMMA helpt gemeenten om ontwikkelingen waarbij IT een rol speelt in samenhang aan te sturen. De GEMMA zorgt daarnaast ook voor inzicht en overzicht, waarop bestuur en management besluitvorming kan baseren en helpt om de samenwerking tussen gemeenten onderling en met ketenpartners mogelijk te maken.
 
-## GEMMA Informatiearchitectuur
-...
+De GEMMA is een referentiearchitectuur en beschrijft een logische, generieke structuur die voor alle gemeenten toepasbaar is. Gemeenten verschillen qua organisatie-inrichting en visie van elkaar verschillen moeten ze de producten en diensten van GEMMA zodanig vertalen dat ze geschikt zijn voor hun specifieke situatie. De GEMMA bestaat uit een set van architectuurprincipes, een bedrijfsarchitectuur en een informatie- en applicatiearchitectuur.
 
-# Inrichtingsopties en patronen
-...
+Bij de uitwerking van de referentiearchtiectuur rondom het werken met API’s worden diverse aspecten van de GEMMA opnieuw bekeken en daar waar nodig aangepast of aangevuld. Alle lagen van de GEMMA worden daarbij onder de loupe genomen, van de uitgangspunten en architectuurprincipes van de GEMMA tot de benodigde technische infrastructuur.
 
-# Best practices
-...
+De [uitwerking van aanpassingen aan de GEMMA](https://github.com/VNG-Realisatie/IAM/blob/main/docs/_content/uitwerking/gemma/index.md) zijn hier te vinden.
