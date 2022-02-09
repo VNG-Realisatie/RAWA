@@ -15,16 +15,23 @@ De GEMMA architectuurprincipes zijn richtinggevend en helpen gemeenten om bewust
 
 In het project rondom het veilig werken met deze API's (gestandaardiseerde gegevens- en informatiediensten) worden de GEMMA architectuurprincipes daar waar nodig bijgesteld naar de uitgangspunten van de informatiekundige visie Common Ground.
 
-Zie de [update van de GEMMA architectuurprincipes](./principes/index.md)
+Zie [update van de GEMMA architectuurprincipes](./principes/index.md)
 
 ### GEMMA Bedrijfsarchitectuur wijzigingen
 Binnen de GEMMA bedrijfsarchitectuur zijn de gemeentelijke bedrijfsfuncties en bedrijfsobjectenmodel beschreven. Een bedrijfsfunctiemodel is een beschrijving van de functies die een gemeente uitvoert, onafhankelijk van hoe de processen zijn ingericht. Een bedrijfsobjectmodel is een conceptueel gegevensmodel dat laat zien wat de belangrijkste gegevensverzamelingen van een gemeente zijn. Deze twee modellen beschrijven bedrijfsaspecten die de basis vormen voor het inrichten van informatievoorziening. 
 
 In het project rondom het veilig werken met deze API's worden naar verwachting zowel bedrijfsfuncties als bedrijfsobjecten rondom het opstellen en beheren van autorisatieprofielen en identiteiten toegevoegd.
 
-Zie de [update van de GEMMA bedrijfsarchitectuur](./bedrijfsarchitectuur/index.md)
+Zie [update van de GEMMA bedrijfsarchitectuur](./bedrijfsarchitectuur/index.md)
 
 ### GEMMA Informatiearchitectuur
 De GEMMA informatiearchitectuur bestaat uit de gegevens- en berichtenarchitectuur en de GEMMA Applicatiearchitectuur met applicatiefuncties en referentiecomponenten. Met name binnen de GEMMA Applicatiearchitectuur zal het uitwerken van de referentiearchitectuur voor het veilig werken met API's leiden tot aanvullingen en wijzigingen. Hierbij valt te denken aan toevoeging van referentiecomponenten met bijbehorende applicatiefuncties en standaarden en het aanpassen van de verschillende bijbehorende architectuurplaten.
 
- Zie de [update van de GEMMA informatiearchitectuur](./informatiearchitectuur/index.md)
+ Zie [update van de GEMMA informatiearchitectuur](./informatiearchitectuur/index.md)
+ 
+ ### GEMMA Gegevenslandschap
+Het GEMMA Gegevenslandschap is de [doelarchitectuur](https://www.gemmaonline.nl/index.php/Gegevenslandschap) die is opgesteld om als gemeenten samen met andere partijen de informatiekundige visie Common Ground te kunnen realiseren. Het GEMMA Gegevenslandschap bestaat uit een samenhangende set van afspraken, standaarden, richtlijnen en beschrijft de processen en informatiefuncties die een gemeente minimaal ingericht moet hebben om op een veilige, transparante en AVG-compliant manier te kunnen werken met gegevens en gegevensdiensten.
+
+Binnen het GEMMA Gegevenslandschap zijn diverse functies benoemd en documenten uitgewerkt die betrekking hebben op het veilig kunnen werken met API's. Voortschrijdend inzicht vanuit het project rondom het veilig werken met APIs zal worden verwerkt in het GEMMA Gegevenslandschap. 
+
+Zie [update van het GEMMA gegevenslandschap/index.md](./gegevenslandschap/index.md)
