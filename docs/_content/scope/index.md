@@ -5,28 +5,31 @@ name: Scope
 
 Tot de scope van het project behoren de onderstaande zaken
 
-# Gebruikscases
+## Gebruikscases
 ...
 
-# GEMMA Wijzigingen en toevoegingen
-
-## GEMMA Architectuurprincipes
+## Inrichtingsopties en patronen
 ...
 
-## GEMMA Bedrijfsarchitectuur wijzigingen
+## Best practices
 ...
 
-## GEMMA bedrijfsfuncties
+## GEMMA Wijzigingen en toevoegingen
 ...
 
-## GEMMA Bedrijfsobjecten
+### GEMMA Architectuurprincipes
 ...
 
-## GEMMA Informatiearchitectuur
+### GEMMA Bedrijfsarchitectuur wijzigingen
 ...
 
-# Inrichtingsopties en patronen
+### GEMMA bedrijfsfuncties
 ...
 
-# Best practices
+### GEMMA Bedrijfsobjecten
 ...
+
+### GEMMA Informatiearchitectuur
+...
+
+
