@@ -1,20 +1,15 @@
-# GEMMA Identity en Access Management
-Gemeenten gaan in toenemende mate gebruik maken van API's voor het ophalen en muteren van gegevens in
-bronregistraties en het ontvangen van notificaties over plaatsgevonden gebeurtenissen. Tevens gaan gemeenten ook in toenemende mate zelf API's aanbieden voor zowel in- als extern gebruik. Een aantal  API-specificaties behorende tot GEMMA, zoals de Haal Centraal en zaakgericht werken API's zijn gerealiseerd en vastgesteld en nu is het tijd om deze in gebruik te nemen.
-Gemeenten hebben behoefte aan een uitbreiding van de GEMMA referentiearchitectuur waarin is beschreven
-welke referentiecomponenten binnen de GEMMA modelarchitectuur nodig zijn en hoe ze moeten worden ingericht
-om veilig en transparant met API's te kunnen werken.
+Met de transitie naar de informatiekundige visie Common Ground gaan gemeenten steeds meer gebruik maken van APIs voor het ophalen en muteren van gegevens in bronregistraties en het ontvangen van notificaties over plaatsgevonden gebeurtenissen. Ook is de verwachting dat gemeenten in toenemende mate zelf APIs gaan aanbieden voor in- en extern gebruik. 
+
+Nu een aantal standaard API-specificaties is gerealiseerd en vastgesteld (onder andere Zaakgericht werken (ZGW) en de HaalCentraal API’s voor ontsluiten van basisregistraties) wordt het tijd om deze breed in gebruik te nemen. Gemeenten hebben daarbij aangegeven dringend behoefte te hebben aan een 'kookboek' of referentiearchitectuur waarin is beschreven welke referentiecomponenten nodig zijn en hoe ze moeten worden ingericht om veilig en transparant met API's te kunnen werken. Waarbij er ruimte blijft voor lokaal beleid en er dus verschillende technische implementaties mogelijk blijven.
 
 In het GEMMA Identity en Access Management project wordt door VNG Realisatie samen met een externe kennispartner (SonicBee) gewerkt aan het uitwerken van een referentiearchitectuur voor het veilig en transparant kunnen gebruiken van API's.
 
 ## Deliverables
-* Uitbreiding en aanpassing van de GEMMA modelarchitectuur met referentiecomponenten en
-bijbehorende functionele afbakening op de genoemde aspecten
-* Beschrijving van de meest gerede inrichtingsscenario's van de verschillende componenten
-* Beschrijving van bestaande best practices van gemeenten
-* Handreiking voor implementatie
-* Beschrijving van afspraken, standaarden en eventueel benodigde componenten voor werken met
-API's
+VHet project Referentiearchtiectuur Werken met API’s is gestart gaat in de eerste helft van het jaar de volgende resultaten opleveren:
+* Uitbreiding én aanpassing van de GEMMA modelarchitectuur met referentiecomponenten en bijbehorende functionele afbakening;
+* Beschrijving van de meest gerede inrichtingsscenario’s van de verschillende componenten;
+* Beschrijving van bestaande (best) practices van gemeenten op de genoemde gebieden;
+* Handreiking voor implementatie (alleen wat nodig is ter overbrugging naar API-documentatie).
 
 ## Project documentatie
 De volledige documentatie van de API-standaard is via de standaard Github navigatie beschikbaar via [deze link](./docs/index.md) maar kan ook via een [gebruiksvriendelijke html interface (Github Pages)](https://vng-realisatie.github.io/gemma-verwerkingenlogging/) worden benaderd.
