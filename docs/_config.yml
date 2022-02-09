@@ -1,0 +1,52 @@
+plugins:
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+  - jekyll-relative-links
+
+relative_links:
+  enabled:     true
+  collections: true
+  
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
+  
+collections:
+  content:
+    output: true
+    permalink: /:path
+  assets:
+    output: true
+    permalink: /:path
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: "content"
+    values:
+      layout: default
+
+markdown: kramdown
+
+exclude:
+  - archief
+
+remote_theme: VNG-Realisatie/jekyll-theme-vng
+#remote_theme: maykinmedia/jekyll-theme-vng 
+
+github: VNG-Realisatie/gemma-verwerkingenlogging
+
+theme: jekyll-theme-time-machine
+
+project_name: gemma-verwerkingenlogging

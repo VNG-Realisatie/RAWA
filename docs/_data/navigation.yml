@@ -1,0 +1,17 @@
+- name: Scope
+  link: /scope/
+  weight: 10
+- name: Termen en begrippen
+  link: /gegevensmodel/
+  weight: 20
+- name: Uitwerking
+  link: /uitwerking/
+  weight: 30    
+- name: FAQ
+  link: /overige/faq
+  weight: 40
+- name: Contact
+  link: /contact/
+  weight: 100
+
+
