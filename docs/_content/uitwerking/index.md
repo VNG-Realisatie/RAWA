@@ -8,7 +8,7 @@ Binnen het project rondom het veilig werken met API's worden
 ## Terminologie
 Binnen de uitwerking van de verschillende deliverables worden diverse vaktermen en begrippen gebruikt. Een verklaring van deze termen en begrippen is [hier](./terminologie/index.md) te vinden.
 
-## Gebruikscases
+## Functionele use cases
 ...
 
 ## Meest gerede inrichtingsscenario’s
