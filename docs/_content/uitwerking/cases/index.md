@@ -1,7 +1,7 @@
 ---
-title: "Onderkende cases IAM"
-name: Onderkende cases IAM
+title: "Functionele use cases"
+name: Functionele use cases
 ---
-## Onderkende cases
+## Functionele use cases
 ...
 
