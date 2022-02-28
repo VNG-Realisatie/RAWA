@@ -1,7 +1,7 @@
 ---
-title: "(Best) practices"
-name: (Best) practices
+title: "Gemeentelijke (best) practices"
+name: Gemeentelijke (best) practices
 ---
-## (Best) practices
+## Gemeentelijke (best) practices
 ...
 
