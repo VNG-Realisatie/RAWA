@@ -26,7 +26,7 @@ Het project is in begin februari 2022 gestart. De verwachtte doorlooptijd van de
 - [Referentiearchitectuur](./_content/uitwerking/referentiearchitectuur/index.md)
 - [Functionele use cases](./_content/uitwerking/cases/index.md)
 - [Uitbreiding GEMMA](./_content/uitwerking/gemma/index.md)
-- [Gemeentelijke best-practices](./_content/uitwerking/bestpractices/index.md)
+- [Gemeentelijke best-practices](./_content/uitwerking/practices/index.md)
 - [Inrichtingsscenarios](./_content/uitwerking/inrichtingsscenarios/index.md)
 - [Terminologie](./_content/uitwerking/terminologie/index.md)
 
