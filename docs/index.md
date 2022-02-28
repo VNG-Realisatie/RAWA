@@ -1,6 +1,6 @@
 ---
-title: "Referentiearchtiectuur Werken met API’s"
-name: IAM
+title: "Referentiearchitectuur Werken met API’s"
+name: Referentiearchitectuur Werken met API’s
 date: 09-02-2022
 ---
 
