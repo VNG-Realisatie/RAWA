@@ -33,20 +33,20 @@ Kanttekening: De policies maken onderdeel uit van de Policy Engine.
 
 ### Overzicht referentiecomponenten en (markt)oplossingen 
 IDP – Identity provider / (Identity broker)
-* Keycloak (Open Source)
-* Authentik (Open Source)
+* [Keycloak](https://www.keycloak.org/) (Open Source)
+* [Authentik](https://goauthentik.io/) (Open Source)
 * Okta
 * Auth0
 * Azure AD
 
 PE – Policy engine
-* OPA, Open Policy Agent (Open Source)
+* [OPA, Open Policy Agent](https://www.openpolicyagent.org/) (Open Source)
 * Axiomatics
 * PlainID
 
 API Gateway
-* Kong (Open Source)
-* Nginx (Open Source)
+* [Kong](https://konghq.com/kong/) (Open Source)
+* [Nginx](https://www.nginx.com/) (Open Source)
 * Mulesoft
 * Axway
 
