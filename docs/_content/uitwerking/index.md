@@ -6,8 +6,8 @@ name: Uitwerking project
 ## Introductie tot Toegang en informatiebeveiliging
 In de introductie worden de verschillende varianten van toegangs- en informatiebeveiliging zoals Attribute-, Role- en Policy Based Access (ABAC, RBAC, PBAC) kort geschetst. Tevens wordt aandacht gegeven aan de governance aspecten die een rol spelen bij de verschillende varianten. De introductie is [hier](./introductie/index.md) te vinden.
 
-## Terminologie
-Binnen de uitwerking van de verschillende deliverables worden diverse vaktermen en begrippen gebruikt. Een verklaring van deze termen en begrippen is [hier](./terminologie/index.md) te vinden.
+## Referentiearchitectuur
+Voor het veilig werken met API's wordt een refrentiearchitectuur nagestreeft die gebaseerd is op een zogenaamde 'Zero trust' architectuur. Zero trust is het concept waarbij niets wordt vertrouwt – of het nu binnen of buiten de grenzen van de organisatie gebeurt – zonder eerst te controleren wie en wat verbinding probeert te maken. De beschrijving van de referentiearchitectuur het veilig werken met API's is [hier](./referentiearchitectuur/index.md) te vinden.
 
 ## Functionele use cases
 ...
@@ -31,3 +31,7 @@ De GEMMA is een referentiearchitectuur en beschrijft een logische, generieke str
 Bij de uitwerking van de referentiearchtiectuur rondom het werken met API’s worden diverse aspecten van de GEMMA opnieuw bekeken en daar waar nodig aangepast of aangevuld. Alle lagen van de GEMMA worden daarbij onder de loupe genomen, van de uitgangspunten en architectuurprincipes van de GEMMA tot de benodigde technische infrastructuur.
 
 De [uitwerking van aanpassingen aan de GEMMA](https://github.com/VNG-Realisatie/IAM/blob/main/docs/_content/uitwerking/gemma/index.md) zijn hier te vinden.
+
+## Terminologie
+Binnen de uitwerking van de verschillende deliverables worden diverse vaktermen en begrippen gebruikt. Een verklaring van deze termen en begrippen is [hier](./terminologie/index.md) te vinden.
+
