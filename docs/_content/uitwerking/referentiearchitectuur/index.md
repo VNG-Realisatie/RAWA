@@ -7,7 +7,7 @@ Onderstaand figuur schets (een deel van) de referentiearchitectuur die wordt nag
 
 <img src="./_assets/referentiearchitectuur.png" alt="Referentiearchitectuur en -componenten" width="700"/>
 
-Korte omschrijving flow.
+### Korte omschrijving flow.
 1.	Gebruiker doet een verzoek naar een API.
 
 2.	Verzoek komt aan bij API Gateway, gebruiker is onbekend en zal worden doorverwezen naar de Identity Provider (IDP) voor authenticatie. Authenticatie kan plaats vinden op basis van:
