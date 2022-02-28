@@ -91,7 +91,7 @@ Belangrijk is dat wel de identiteit als kenmerk wordt meegegeven, want de SP moe
 * Digid BSN heeft op datum(D) om tijd(T) op grond van regel(R)-versieV() toegang gekregen tot Applicatiefunctie(A)
 
 ### Zero Trust architectuur
-Zero Trust is de moderne invulling van een oud gedachtengoed: laat de data zichzelf beschermen, zodat we geen last hebben van mensen die toegang of autorisaties nodig hebben. De data, of andere resources kennen die mensen niet, dus hoe kunnen ze iemand dan ook toegang verlenen. Het concept van ZTA kent twee hoofdlijnen:
+[Zero Trust](https://www.nist.gov/publications/zero-trust-architecture) is de moderne invulling van een oud gedachtengoed: laat de data zichzelf beschermen, zodat we geen last hebben van mensen die toegang of autorisaties nodig hebben. De data, of andere resources kennen die mensen niet, dus hoe kunnen ze iemand dan ook toegang verlenen. Het concept van ZTA kent twee hoofdlijnen:
 
 * Netwerkbeveiliging
     * Uitgangspunt onder andere Assume Breach, waarbij netwerk technisch belemmeringen worden opgelegd, zoals isolatie van netwerken, maar ook end-to-end versleuteling.
@@ -99,7 +99,7 @@ Zero Trust is de moderne invulling van een oud gedachtengoed: laat de data zichz
     * Constante verificatie van de juiste autorisatie van een access requester.
     * Minimale autorisaties
 
-Als we netwerktechnologie buiten beschouwing laten, dan is toegang uitsluitend mogelijk authenticatie en autorisatie. Maar omdat de menselijke factor geen rol speelt, moet dat worden afgedwongen met Policy Based Access Control. Het gaat er niet om wie wat mag, maar op grond waarvan iemand iets zou moeten mogen. De access control vraag zoals die gold bij de basis toegang en bij RBAC, is niet meer mogelijk, er met worden gewerkt met access policies.
+Als we netwerktechnologie buiten beschouwing laten, dan is toegang uitsluitend mogelijk authenticatie en autorisatie. Maar omdat de menselijke factor geen rol speelt, moet dat worden afgedwongen met Policy Based Access Control. Het gaat er niet om wie wat mag, maar op grond waarvan iemand iets zou moeten mogen. De access control vraag zoals die gold bij de basis toegang en bij RBAC, is niet meer mogelijk, er moet worden gewerkt met access policies.
 
 ### Governance
 Governance is een cruciaal onderdeel bij het verlenen van toegang. Hoe is te zien wie wat mag, of wie wat gedaan heeft?
