@@ -60,7 +60,7 @@ Zoals te zien is, wordt er geen nieuwe account gemaakt, de service provider vert
 ##### Attribute Based Authorisation (ABAC)
 Het is niet zo dat iedere individu binnen de black box zomaar alle autorisaties krijgt. In het kader van federatieve toegang worden expliciete toegangsregels contractueel vastgelegd. Kenmerken van de identiteit, de zogenaamde Attributen, bepalen of toegang wordt verstrekt.
 
-Voor deze werkwijze wordt gebruik gemaakt van moderne technologie die het concept van federatie ondersteunt. Dat betekent webtechnologie (websites en webservices, dan wel microservices en APIs) die via moderne protocollen worden ontsloten. Deze protocollen (SAML, OAuth en OpenID Connect) bieden meteen functionaliteit als Single Sign-on, zodat individuen als ze al zin ingelogd bij hun identity provider, niet nog eens hoeven in te loggen. De service provider hoeft dan ook geen account of wachtwoorden meer te beheren, kan ze ook niet meer kwijtraken en beperkt daarmee direct het risico op datalekken of misbruik of diefstal van digitale identiteiten.
+Voor deze werkwijze wordt gebruik gemaakt van moderne technologie die het concept van federatie ondersteunt. Dat betekent webtechnologie (websites en webservices, dan wel microservices en APIs) die via moderne protocollen worden ontsloten. Deze protocollen (SAML, OAuth en OpenID Connect) bieden meteen functionaliteit als Single Sign-on, zodat individuen als ze al zijn ingelogd bij hun identity provider, niet nog eens hoeven in te loggen. De service provider hoeft dan ook geen account of wachtwoorden meer te beheren, kan ze ook niet meer kwijtraken en beperkt daarmee direct het risico op datalekken of misbruik of diefstal van digitale identiteiten.
 
 Een voorbeeld:
 DigiD is de digitale identiteit van burgers verstrekt door de IdP, in casu DigiD, beheerd door Logius. Met deze digitale identiteit kunnen burgers toegang krijgen bij overheidsdiensten. Een burger die bij een gemeente een vergunning aan wil vragen, logt in bij DigiD en krijgt op grond van het BSN dat als attribuut door DigiD aan de gemeente wordt verstrekt in een SAML-bericht, toegang bij de gemeente.
@@ -83,7 +83,7 @@ Welke attributen en welke attribuutwaarden zijn toelaatbaar en leiden tot welke 
 #### Policy Based Access (PBAC)
 Zoals aangegeven bepaalt het contract dus welk soort toegang toelaatbaar is. Dat impliceert dat zowel de SP als de IdP van elkaar begrijpen welke regels gelden, welk beleid van kracht is. Concreet betekent dit dat de SP op basis van de door de IdP verstrekte gegevens toegang zal verlenen. De SP zal zelf geen identiteiten beheren, maar alleen toegangsregels en de manier waarop iemand toegang kan krijgen.
 
-Deze regels, ook wel Policy genaamd, bepalen feitelijk of toegang wordt verleend. Daarbij maakt niet uit wie de individu is, dat weet de SP namelijk niet, maar wel welke autorisaties, in de vorm van kenmerken, de IdP meegeeft.
+Deze regels, ook wel Policy genaamd, bepalen feitelijk of toegang wordt verleend. Daarbij maakt niet uit wie het individu is, dat weet de SP namelijk niet, maar wel welke autorisaties, in de vorm van kenmerken, de IdP meegeeft.
 In het kader van DigiD geeft DigiD alleen het BSN mee. Het BSN bepaalt of iemand bij een gemeente iets mag doen en wat iemand mag doen.
 
 Belangrijk is dat wel de identiteit als kenmerk wordt meegegeven, want de SP moet wel kunnen laten zien wie waarom toegang heeft gekregen. Voorbeeld:
@@ -91,7 +91,7 @@ Belangrijk is dat wel de identiteit als kenmerk wordt meegegeven, want de SP moe
 * Digid BSN heeft op datum(D) om tijd(T) op grond van regel(R)-versieV() toegang gekregen tot Applicatiefunctie(A)
 
 ### Zero Trust architectuur
-[Zero Trust](https://www.nist.gov/publications/zero-trust-architecture) is de moderne invulling van een oud gedachtengoed: laat de data zichzelf beschermen, zodat we geen last hebben van mensen die toegang of autorisaties nodig hebben. De data, of andere resources kennen die mensen niet, dus hoe kunnen ze iemand dan ook toegang verlenen. Het concept van ZTA kent twee hoofdlijnen:
+[Zero Trust](https://www.nist.gov/publications/zero-trust-architecture) is de moderne invulling van een oud gedachtengoed: laat de data zichzelf beschermen, zodat we geen last hebben van mensen die toegang of autorisaties nodig hebben. De data, of andere resources kennen die mensen niet, dus hoe kunnen ze iemand dan ook toegang verlenen? Het concept van ZTA kent twee hoofdlijnen:
 
 * Netwerkbeveiliging
     * Uitgangspunt onder andere Assume Breach, waarbij netwerk technisch belemmeringen worden opgelegd, zoals isolatie van netwerken, maar ook end-to-end versleuteling.
@@ -99,11 +99,11 @@ Belangrijk is dat wel de identiteit als kenmerk wordt meegegeven, want de SP moe
     * Constante verificatie van de juiste autorisatie van een access requester.
     * Minimale autorisaties
 
-Als we netwerktechnologie buiten beschouwing laten, dan is toegang uitsluitend mogelijk authenticatie en autorisatie. Maar omdat de menselijke factor geen rol speelt, moet dat worden afgedwongen met Policy Based Access Control. Het gaat er niet om wie wat mag, maar op grond waarvan iemand iets zou moeten mogen. De access control vraag zoals die gold bij de basis toegang en bij RBAC, is niet meer mogelijk, er moet worden gewerkt met access policies.
+Als we netwerktechnologie buiten beschouwing laten, dan is toegang uitsluitend mogelijk na authenticatie en autorisatie. Maar omdat de menselijke factor geen rol speelt, moet dat worden afgedwongen met Policy Based Access Control. Het gaat er niet om wie wat mag, maar op grond waarvan iemand iets zou moeten mogen. De access control vraag zoals die gold bij de basis toegang en bij RBAC is niet meer mogelijk. Er moet worden gewerkt met access policies.
 
 ### Governance
-Governance is een cruciaal onderdeel bij het verlenen van toegang. Hoe is te zien wie wat mag, of wie wat gedaan heeft?
-In het geval van de traditionale toegang, denk aan Access Control Lists, is alleen te zien welke individuen toegang tot een object hebben, zij staan immers in de lijst. Het is niet mogelijk om te zien wat iemand mag, want die relatie bestaat alleen vanuit het object, vanuit de ACL.
+Governance is een cruciaal onderdeel bij het verlenen van toegang. Hoe is te zien wie wat mag of wie wat gedaan heeft?
+In het geval van de traditionale toegang, denk aan Access Control Lists, is alleen te zien welke individuen toegang tot een object hebben, zij staan immers in de lijst. Het is niet mogelijk om te zien wat iemand mag want die relatie bestaat alleen vanuit het object, vanuit de ACL.
 Bij RBAC is via het toegangspad vanaf de individu weel vast te stellen, per individu is vast te stellen welke autorisaties bestaan en vanuit de autorisaties is af te leiden welke accounts toegang hebben.
 
 * Bijv.: Persoon P met Businessrol X heeft toegang tot Applicatierol Y waarin ApplicatiefunctieZ, of Gegeven Z zijn opgenomen.
