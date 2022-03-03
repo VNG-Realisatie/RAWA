@@ -9,6 +9,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 [A](./index.md#a) | [B](./index.md#a) | [C](./index.md#c) | [D](./index.md#d) | [E](./index.md#e) | [F](./index.md#f) | [G](./index.md#g) | [H](./index.md#h) | [I](./index.md#i) | [J](./index.md#aj) | [K](./index.md#k) | [L](./index.md#l) | [M](./index.md#m) | [N](./index.md#n) | [O](./index.md#o) | [P](./index.md#p) | Q | [R](./index.md#r)| [S](./index.md#s) | [T](./index.md#t) | [U](./index.md#u) | [V](./index.md#v) | W | [X](./index.md#x) | Y | [Z](./index.md#z)
 
 ### A
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Abstraction | the practice of identifying and isolating repeated aspects of operations or business logic so that they can be maintained in one place and referenced in many places. | [Policy-Based Access Controls](https://bok.idpro.org/article/id/61/) |
@@ -51,12 +52,14 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Automatic Certificate Management Environment (ACME) | A communication protocol for automating interactions between Private Key Holders and Certificate Authorities. Based on JSON and HTTP, it is widely deployed to support the issuance of TLS certificates for web servers. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
 
 ### B
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Bilateral Federation | A bilateral federation is one that consists of only two entities: one Identity Provider (IdP) and one Service Provider (SP). This is the most common model for an enterprise identity federation. | [Federation in the Enterprise](https://bok.idpro.org/article/id/62/) |
 | Bot | Sometimes called an Internet bot, short for &#39;robot&#39; but referring to a software routine that performs automated tasks over the Internet or a web robot referring to an autonomous network application, or simply a &#39;bot&#39; referring to an automated, typically repetitive, task used for a specific purpose. | [Non-Human Account Management](https://bok.idpro.org/article/id/52/) |
 
 ### C
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Ceremonies | Predictable interactions that users can infrequently navigate in a well-watched place | [Introduction to Identity – Part 2: Access Management](https://bok.idpro.org/article/id/45/) |
@@ -82,6 +85,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Cryptographic Module Validation Program (CMVP) | A program allowing cryptographic module developers to test their modules against the requirements defined in FIPS-140. Compliant modules are listed on a US government-run website | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
 
 ### D
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Data Controller | Defined in Article 4(7) of the GDPR: &quot;&#39;controller&#39; means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data;&quot;. This article uses the term &quot;organisation&quot; as a synonym for &quot;data controller&quot;, since organisations involved in IAM will normally be data controllers. | [An Introduction to the GDPR](https://bok.idpro.org/article/id/11/) |
@@ -100,6 +104,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | dPKI | A decentralized public key infrastructure and is usually implemented via an immutable blockchain or ledger – a place where DIDs can be registered and looked up alongside the associated public keys of the DID and its metadata. dPKI can be described more generally as the _verifiable data registry_, as the dPKI is just one of many possible implementations for a verifiable data registry. While this paper refers to dPKI, the reader should be aware that a verifiable data registry need not necessarily be &quot;decentralized&quot;. | [A Peek into the Future of Decentralized Identity](https://bok.idpro.org/article/id/51/) |
 
 ### E
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Electronic Identification, Authentication and Trust Services (eIDAS) | European legislation that gives legal standing to electronic signatures. This legislation also documents how to provide legally binding digital signatures with X.509 certificates to comply with Qualified Signature. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
@@ -113,6 +118,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | External identifier | The means by which a person in control of a digital identity refers to that identity when interacting with a system | [Identifiers and Usernames](https://bok.idpro.org/article/id/16/) |
 
 ### F
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Federal Agency Smart Credential Number (FASC-N) | A unique identifier associated with a smart card. Used in the US Federal Government PIV standard to support Physical Access. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
@@ -123,6 +129,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Fraud Law | Laws that protect against the intentional misrepresentation of information made by one person to another, with knowledge of its falsity and for the purpose of inducing the other person to act, and upon which the other person relies with resulting injury or damage. | [Laws Governing Identity Systems](https://bok.idpro.org/article/id/8/) |
 
 ### G
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Gantt Chart | A popular schedule format that displays both activity and timeframes in a single chart | [Introduction to Project Management for IAM Projects](https://bok.idpro.org/article/id/25/) |
@@ -130,12 +137,14 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Groups | A set of identities with defined permissions. In this specific context, a group contains many individuals, but the group identity is opaque, and no information is available regarding which group member took an individual action. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
 
 ### H
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Hardware Security Module (HSM) | A hardware device that generates and protects cryptographic keys. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
 | Holder | The entity that holds verifiable credentials. Holders are typically users but can also be organizations or devices. | [A Peek into the Future of Decentralized Identity](https://bok.idpro.org/article/id/51/) |
 
 ### I
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Identification | Uniquely establish a user of a system or application. | [Introduction to Access Control](https://bok.idpro.org/article/id/42/) |
@@ -163,12 +172,14 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Issuer | The entity that issues verifiable credentials about subjects to holders. Issuers are typically a government entity or corporation, but an issuer can also be a person or device. | [A Peek into the Future of Decentralized Identity](https://bok.idpro.org/article/id/51/) |
 
 ### J
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Joiner/Mover/Leaver | The joiner/mover/leaver lifecycle of an employee identity considers three stages in the life cycle: joining the organization, moving within the organization, and leaving the organization. | [Introduction to Identity - Part 1: Admin-time (v2)](https://bok.idpro.org/article/id/27/) |
 | Journey-based Creation | The process that guides a customer through a series of interactions prior to establishing a digital identity. For example, capturing the minimum basic information needed from a customer to enable creation of an identity. | [An Overview of the Digital Identity Lifecycle](https://bok.idpro.org/article/id/31/) |
 
 ### K
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Key | In a cryptosystem, a Key is a piece of information used to encrypt or decrypt data in a cryptographic algorithm. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
@@ -176,6 +187,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Least Privilege | Also known as the Principle of Least Privilege; a resource, such as a user, must only be able to access the resources (e.g., applications, data) that are necessary for it to function. | [Introduction to Identity – Part 2: Access Management](https://bok.idpro.org/article/id/45/) |
 
 ### L
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Local Authorization | Local authorization is handled by the RP. | [IAM Reference Architecture](https://bok.idpro.org/article/id/76/) |
@@ -188,6 +200,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Multilateral Federation | A federation that consists of multiple entities that have agreed to a specific trust framework. There are several forms of multilateral federations, including hub-and-spoke and mesh. Multilateral federations are the most common model for academic identity federations. | [Federation in the Enterprise](https://bok.idpro.org/article/id/62/) |
 
 ### N
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | National Institute of Standards and Technology (NIST) | A US Government agency that defines and publishes standards. One department within NIST, the Computer Security Resource Center (&quot;CSRC&quot;), publishes the Federal Information Processing Standards (&quot;FIPS&quot;) series. While these standards are only mandatory for US Government Agencies, they are widely recognized as de-facto standards globally. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
@@ -195,6 +208,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Non-Person Entities | Any unique combination of hardware, software firmware (e.g., device) that utilizes the capabilities of other programs, devices, or services to perform a function. Non-person entities may either act independently or on behalf of an authenticated individual or NPE | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
 
 ### O
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | OAuth 2.0 | OAuth 2.0 is an open-source protocol that allows Resource Owners such as applications to share data with clients by facilitating communication with an Authorization Server. That data takes the form of credentials given to applications to obtain information/data from other applications. The Authorization Server is usually the Identity Provider (IdP). The Authorization Server (AS) may provide authorization directly or indirectly. For example, the AS may supply attributes or profile data of the Resource Owner or provide access to data that can later be used for authorization purposes, such as entitlements from an Identity Management or Governance Solution. | [Federation in the Enterprise](https://bok.idpro.org/article/id/62/) |
@@ -202,6 +216,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | OpenID Connect (OIDC) | OpenID Connect is an authentication and authorization framework built on top of OAuth2.0, specifically the authorization\_code grant type. It was created to allow not only to authorize clients to obtain information but also includes the ability for clients to obtain information about the user after the user is authenticated. | [Federation in the Enterprise](https://bok.idpro.org/article/id/62/) |
 
 ### P
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Path Discovery and Validation (PDVal) | The process to determine whether a certificate is valid and trusted by the validator. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
@@ -231,6 +246,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Protected Resource | A system, a process, a service, an information object, or even a physical location that is subject to access control as defined by the owner of the resource and by other stakeholders, such as a business process owner or Risk manager. | [Introduction to Access Control](https://bok.idpro.org/article/id/42/) |
 
 ### R
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Registration Authority (RA) | An individual, system, or business function which provides registration and identity proofing for entities receiving certificates and manages the certificate issuance and renewal process. The most important responsibilities of an RA include identity proofing and binding of the private key to the identity. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
@@ -245,6 +261,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | RSA | An asymmetric cryptosystem based on large prime numbers. The acronym RSA stands for the three principal inventors, Ron Rivest, Adi Shamir, and Len Adleman. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
 
 ### S
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | S/MIME | A standard for constructing and sending digitally signed or encrypted messages using asymmetric cryptography | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
@@ -271,6 +288,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | System Account | A generic term for a privileged account that has extensive permissions to system-level functions, typically used to install new applications, perform system updates, or make configuration changes. | [Non-Human Account Management](https://bok.idpro.org/article/id/52/) |
 
 ### T
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Task | Lowest level of defined activity; multiple tasks will typically be grouped into stages of project phases | [Introduction to Project Management for IAM Projects](https://bok.idpro.org/article/id/25/) |
@@ -283,6 +301,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Two-Factor Authentication (2FA) | A specific case of Multi-Factor Authentication (see: [IDPro&#39;s Consolidated Terminology](https://bok.idpro.org/article/id/41/)) where two factors must be checked to validate a user&#39;s identity. | [Designing MFA for Humans](https://bok.idpro.org/article/id/49/) |
 
 ### U
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Universal Resolver | An identifier resolver that works with any decentralized identifier system through DID drivers. The purpose of a universal resolver is to return a DID document containing DID metadata when given a specific DID value. This capability is very useful because DIDs can be anchored on any number of disparate dPKI implementations. | [A Peek into the Future of Decentralized Identity](https://bok.idpro.org/article/id/51/) |
@@ -293,6 +312,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Username | An identifier unique to the authentication service used in conjunction with a shared secret to authenticate a user. | [Managing Identity in Customer Service Operations](https://bok.idpro.org/article/id/65/) |
 
 ### V
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Validator | An entity that verifies a certificate and confirms that the other party controls the private key in the transaction. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
@@ -301,11 +321,13 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Verifier | The entity that verifies verifiable credentials so that it can provide services to a holder. | [A Peek into the Future of Decentralized Identity](https://bok.idpro.org/article/id/51/) |
 
 ### X
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | X.509 | An ISO standard from the X.500 series that defines the basic rules for encoding public key certificates. | [Practical Implications of Public Key Infrastructure for Identity Professionals](https://bok.idpro.org/article/id/80/) |
 
 ### Z
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Zero Trust | From NIST Draft Special Publication 800-207, &quot;Zero trust assumes there is no implicit trust granted to assets or user accounts based solely on their physical or network location (i.e., local area networks versus the internet)&quot; | [Introduction to Identity – Part 2: Access Management](https://bok.idpro.org/article/id/45/) |
