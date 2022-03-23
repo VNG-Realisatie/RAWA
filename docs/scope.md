@@ -2,6 +2,7 @@
 layout: page-with-side-nav
 date: 23-03-2022
 title: "Scope"
+name: "Scope"
 ---
 
 Het project Referentiearchtiectuur Werken met API’s gaat in de eerste helft van 2022 de volgende resultaten opleveren:

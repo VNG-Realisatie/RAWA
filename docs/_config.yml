@@ -14,13 +14,13 @@ nav:
   - title: GitHub Pages 
     subnav:
       - title: Scope
-        path: /scope/index.md
+        path: /scope
       - title: Uitwerking
-        path: /uitwerking/index.md
+        path: /uitwerking
       - title: FAQ
         path: /overige/faq
       - title: Contact
-        path: /contact/index.md
+        path: /contact
 
 plugins:
   - jekyll-redirect-from
