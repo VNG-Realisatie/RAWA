@@ -4,6 +4,8 @@ date: 23-03-2022
 title: "Uitwerking project"
 ---
 
+# Uitwerking van het project
+
 ## Introductie tot Toegang en informatiebeveiliging
 In de introductie worden de verschillende varianten van toegangs- en informatiebeveiliging zoals Attribute-, Role- en Policy Based Access (ABAC, RBAC, PBAC) kort geschetst. Tevens wordt aandacht gegeven aan de governance aspecten die een rol spelen bij de verschillende varianten. De introductie is [hier](./uitwerking/introductie/index.md) te vinden.
 
