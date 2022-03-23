@@ -1,52 +1,37 @@
+baseurl: "/IAM"
+apiname: "Referentiearchitectuur voor het werken met APIs"
+url: "http://localhost:4000"
+# nav is t.b.v. generatie side-navigation menu.
+# Een 'title' zonder path of url genereert slechts een kopje.
+# 'path' vormt tezamen met de baseurl de url waarmee de 'href' wordt gevuld. 
+# Indien een 'url' voorradig dan wordt daarmee de 'href' gevuld en dient het path slechts om te bepalen welke link active is.
+# 'target: blank' zorgt er voor dat de link in een nieuw tabblad wordt geöpend.
+nav:
+  - title: Referentiearchitectuur voor het werken met APIs
+    subnav:
+      - title: Main
+        path: /
+  - title: GitHub Pages 
+    subnav:
+      - title: Scope
+        path: /scope/index.md
+      - title: Uitwerking
+        path: /uitwerking/index.md
+      - title: FAQ
+        path: /overige/faq
+      - title: Contact
+        path: /contact/index.md
+
 plugins:
   - jekyll-redirect-from
   - jekyll-remote-theme
-  - jekyll-relative-links
-
-relative_links:
-  enabled:     true
-  collections: true
-  
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
-  
-collections:
-  content:
-    output: true
-    permalink: /:path
-  assets:
-    output: true
-    permalink: /:path
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: default
-  - scope:
-      path: ""
-      type: "content"
-    values:
-      layout: default
-
-markdown: kramdown
-
-exclude:
-  - archief
-
-remote_theme: VNG-Realisatie/jekyll-theme-vng
-#remote_theme: maykinmedia/jekyll-theme-vng 
 
 github: VNG-Realisatie/IAM
 
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-cayman
 
-project_name: IAM
+remote_theme: VNG-Realisatie/jekyll-theme-vng-realisatie
+
+project_name: /IAM
+
+standard_family: nvt

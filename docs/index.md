@@ -1,7 +1,7 @@
 ---
+layout: page-with-side-nav
+date: 23-03-2022
 title: "Referentiearchitectuur Werken met API’s"
-name: Referentiearchitectuur Werken met API’s
-date: 09-02-2022
 ---
 
 Met de transitie naar de informatiekundige visie Common Ground gaan gemeenten steeds meer gebruik maken van APIs voor het ophalen en muteren van gegevens in bronregistraties en het ontvangen van notificaties over plaatsgevonden gebeurtenissen. Ook is de verwachting dat gemeenten in toenemende mate zelf APIs gaan aanbieden voor in- en extern gebruik. 
@@ -21,14 +21,14 @@ Het project Referentiearchtiectuur Werken met API’s gaat in de eerste helft va
 Het project is in begin februari 2022 gestart. De verwachtte doorlooptijd van de eerste fase van het project is drie tot vier maanden. Het projectteam werkt in sprints van drie weken. De sprintplanning van het project is op deze site te vinden. Na afloop van een sprint worden de resulaten van de sprint in een publiek toegankelijke demo gepresenteerd.
 
 ## Uitwerking deelonderwerpen
-- [Scope van het project](./_content/scope/index.md)
-- [Introductie tot Toegang en informatiebeveiliging](./_content/uitwerking/introductie/index.md)
-- [Referentiearchitectuur](./_content/uitwerking/referentiearchitectuur/index.md)
-- [Functionele use cases](./_content/uitwerking/cases/index.md)
-- [Uitbreiding GEMMA](./_content/uitwerking/gemma/index.md)
-- [Gemeentelijke best-practices](./_content/uitwerking/practices/index.md)
-- [Inrichtingsscenarios](./_content/uitwerking/inrichtingsscenarios/index.md)
-- [Terminologie](./_content/uitwerking/terminologie/index.md)
+- [Scope van het project](./scope/index.md)
+- [Introductie tot Toegang en informatiebeveiliging](./uitwerking/introductie/index.md)
+- [Referentiearchitectuur](./uitwerking/referentiearchitectuur/index.md)
+- [Functionele use cases](./uitwerking/cases/index.md)
+- [Uitbreiding GEMMA](./uitwerking/gemma/index.md)
+- [Gemeentelijke best-practices](./uitwerking/practices/index.md)
+- [Inrichtingsscenarios](./uitwerking/inrichtingsscenarios/index.md)
+- [Terminologie](./uitwerking/terminologie/index.md)
 
 ## Bijdragen aan het project
 Gemeenten en leveranciers worden aangemoedigd om bij te dragen aan het project. Onderstaande links geven informatie over hoe u uw bijdrage kan leveren.
