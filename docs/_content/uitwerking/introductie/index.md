@@ -6,6 +6,8 @@ name: Introductie tot Toegang en informatiebeveiliging
 “Wie mag wat en waarom is dat zo” is een belangrijke vraag binnen informatiebeveiliging en voor privacybescherming.
 Traditioneel wordt dit opgelost door mensen accounts en autorisaties in informatiesystemen te geven. Bijvoorbeeld: een actor krijgt een autorisatie. 
 
+![Actor autorisatie](_assets/actorautorisatie1.png){:width="300px"}
+
 <img src="./_assets/actorautorisatie1.png" alt="Actor autorisatie" width="300"/>
 
 In alle plaatjes in dit document zijn de pijlen feitelijk ‘n:m’ relaties, dat wil zeggen dat een actor meerdere autorisaties kan hebben en dat aan een autorisatie meerdere actoren kunnen zin gekoppeld. Een klein voorbeeld:
