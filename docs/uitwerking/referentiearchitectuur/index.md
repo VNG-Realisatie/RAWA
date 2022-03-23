@@ -7,7 +7,7 @@ title: "Referentiearchitectuur en -componenten"
 # Referentiearchitectuur werken met API's
 Onderstaand figuur schets (een deel van) de referentiearchitectuur die wordt nagestreeft voor het veilig en transparant kunnen werken met API's. Deze referentiearchitectuur is gebaseerd op de principes van een [Zero Trust architectuur](https://www.nist.gov/publications/zero-trust-architecture).
 
-![Referentiearchitectuur en -componenten](./assets/areferentiearchitectuur.png){:width="700px"}
+![Referentiearchitectuur en -componenten](./assets/referentiearchitectuur.png){:width="700px"}
 
 ### Korte omschrijving flow.
 1.	Gebruiker doet een verzoek naar een API.
