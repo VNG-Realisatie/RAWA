@@ -9,7 +9,7 @@ url: "http://localhost:4000"
 nav:
   - title: Referentiearchitectuur voor het werken met APIs
     subnav:
-      - title: Main
+      - title: Project
         path: /
   - title: GitHub Pages 
     subnav:
