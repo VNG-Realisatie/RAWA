@@ -7,12 +7,12 @@ title: "Introductie tot Toegang en informatiebeveiliging"
 “Wie mag wat en waarom is dat zo” is een belangrijke vraag binnen informatiebeveiliging en voor privacybescherming.
 Traditioneel wordt dit opgelost door mensen accounts en autorisaties in informatiesystemen te geven. Bijvoorbeeld: een actor krijgt een autorisatie. 
 
-![Actor autorisatie](./assets/ractorautorisatie1.png){:width="300px"}
+![Actor autorisatie](./assets/actorautorisatie1.png){:width="300px"}
 
 
 In alle plaatjes in dit document zijn de pijlen feitelijk ‘n:m’ relaties, dat wil zeggen dat een actor meerdere autorisaties kan hebben en dat aan een autorisatie meerdere actoren kunnen zin gekoppeld. Een klein voorbeeld:
 
-![Actor autorisatie](./assets/ractorautorisatie2.png){:width="300px"}
+![Actor autorisatie](./assets/actorautorisatie2.png){:width="300px"}
 
 Deze methodiek herkennen we in bijvoorbeeld sharepoint: iemand die een document plaatst, mag aangeven wie het document mag lezen of bewerken. Technisch heet dat een Access Control List.
 
