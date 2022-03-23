@@ -4,8 +4,8 @@ date: 23-03-2022
 title: "Referentiearchitectuur en -componenten"
 ---
 
-## Referentiearchitectuur en -componenten
-Onderstaand figuur schets (een deel van) de referentiearchitectuur die wordt nagestreeft voor het veilig kunnen werken met API's. Deze referentiearchitectuur is gebaseerd op de principes van een [Zero Trust architectuur](https://www.nist.gov/publications/zero-trust-architecture).
+# Referentiearchitectuur werken met API's
+Onderstaand figuur schets (een deel van) de referentiearchitectuur die wordt nagestreeft voor het veilig en transparant kunnen werken met API's. Deze referentiearchitectuur is gebaseerd op de principes van een [Zero Trust architectuur](https://www.nist.gov/publications/zero-trust-architecture).
 
 <img src="./_assets/referentiearchitectuur.png" alt="Referentiearchitectuur en -componenten" width="700"/>
 
