@@ -17,10 +17,16 @@ nav:
     subnav:
       - title: Introductie
         path: /uitwerking/introductie
-      - title: Praktijk cases
+      - title: Use cases
         path: /uitwerking/cases
-      - title: Uitwerking
-        path: /uitwerking
+      - title: Referentiearchitectuur  
+        path: /uitwerking/referentiearchitectuur
+      - title: GEMMA aanpassingen  
+        path: /uitwerking/gemma
+      - title: Inrichtingsscenarios  
+        path: /uitwerking/inrichtingsscenarios  
+      - title: Terminologie  
+        path: /uitwerking/terminologie
       - title: FAQ
         path: /faq
       - title: Contact
