@@ -15,6 +15,10 @@ nav:
         path: /scope  
   - title: Uitwerking 
     subnav:
+      - title: Introductie
+        path: /uitwerking/introductie
+      - title: Praktijk cases
+        path: /uitwerking/cases
       - title: Uitwerking
         path: /uitwerking
       - title: FAQ
