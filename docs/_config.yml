@@ -11,10 +11,10 @@ nav:
     subnav:
       - title: Project
         path: /
+      - title: Scope
+        path: /scope  
   - title: Uitwerking 
     subnav:
-      - title: Scope
-        path: /scope
       - title: Uitwerking
         path: /uitwerking
       - title: FAQ
