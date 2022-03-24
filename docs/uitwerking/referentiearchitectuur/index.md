@@ -5,6 +5,9 @@ title: "Referentiearchitectuur en -componenten"
 ---
 
 # Referentiearchitectuur werken met API's
+Voor het veilig werken met API's wordt een refrentiearchitectuur nagestreeft die gebaseerd is op een zogenaamde 'Zero trust' architectuur. Zero trust is het concept waarbij niets wordt vertrouwt – of het nu binnen of buiten de grenzen van de organisatie gebeurt – zonder eerst te controleren wie en wat verbinding probeert te maken. 
+
+## Uitwerking
 Onderstaand figuur schets (een deel van) de referentiearchitectuur die wordt nagestreeft voor het veilig en transparant kunnen werken met API's. Deze referentiearchitectuur is gebaseerd op de principes van een [Zero Trust architectuur](https://www.nist.gov/publications/zero-trust-architecture).
 
 ![Referentiearchitectuur en -componenten](./assets/referentiearchitectuur.png){:width="500px"}

@@ -11,12 +11,26 @@ nav:
     subnav:
       - title: Project
         path: /
-  - title: GitHub Pages 
-    subnav:
       - title: Scope
-        path: /scope
-      - title: Uitwerking
-        path: /uitwerking
+        path: /scope  
+  - title: Uitwerking 
+    subnav:
+      - title: Introductie
+        path: /uitwerking/introductie
+      - title: Use cases
+        path: /uitwerking/cases
+      - title: Referentiearchitectuur  
+        path: /uitwerking/referentiearchitectuur
+      - title: GEMMA aanpassingen  
+        path: /uitwerking/gemma
+      - title: Inrichtingsscenarios  
+        path: /uitwerking/inrichtingsscenarios  
+      - title: Best practices
+        path: /uitwerking/practices   
+      - title: Terminologie  
+        path: /uitwerking/terminologie
+  - title: Vraag en antwoord 
+    subnav:        
       - title: FAQ
         path: /faq
       - title: Contact
