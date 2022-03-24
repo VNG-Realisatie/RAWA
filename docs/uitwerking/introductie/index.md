@@ -4,6 +4,9 @@ date: 23-03-2022
 title: "Introductie tot Toegang en informatiebeveiliging"
 ---
 # Introductie tot Toegang en Informatiebeveiliging
+In deze introductie worden de verschillende varianten van toegangs- en informatiebeveiliging zoals Attribute-, Role- en Policy Based Access (ABAC, RBAC, PBAC) kort geschetst. Tevens wordt aandacht gegeven aan de governance aspecten die een rol spelen bij de verschillende varianten.
+
+## Uitwerking
 “Wie mag wat en waarom is dat zo” is een belangrijke vraag binnen informatiebeveiliging en voor privacybescherming.
 Traditioneel wordt dit opgelost door mensen accounts en autorisaties in informatiesystemen te geven. Bijvoorbeeld: een actor krijgt een autorisatie. 
 
