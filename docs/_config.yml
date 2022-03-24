@@ -27,7 +27,7 @@ nav:
         path: /uitwerking/inrichtingsscenarios  
       - title: Terminologie  
         path: /uitwerking/terminologie
- - title: Vraag en antwoord 
+  - title: Vraag en antwoord 
     subnav:        
       - title: FAQ
         path: /faq
