@@ -14,7 +14,7 @@ Ten aanzien van de referentiearchitectuur voor het werken met API's zijn op een 
 
 Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen.
 
-> De onderstaande principes zijn de eerste conceptversie van de principes. Gemeenten en leveranciers worden met nadruk gevraagd om input te leveren op deze concept principes. Het geven van input op de principes kan via het aanmaken van een [issue](https://github.com/VNG-Realisatie/IAM/issues) of door een mail te sturen naar de [product owner](mailto:arnoud.quanjer@vng.nl).
+> De onderstaande principes zijn de eerste conceptversie van de principes voor het (veilig) werken met API's. Gemeenten en leveranciers worden hierbij uitgenodigd om input te leveren op deze concept principes. Het geven van input in de vorm van suggesties voor aanpassing van de principes of suggesties voor het toevoegen van nieuwe principes kan via het aanmaken van een [Github issue](https://github.com/VNG-Realisatie/IAM/issues) of door een mail te sturen naar de [product owner](mailto:arnoud.quanjer@vng.nl) van de referentiearchitectuur voor het werken met API's.
 
 ## Basis op orde
 
