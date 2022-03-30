@@ -31,7 +31,8 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 <tr>  
     <td>B2</td> 
     <td>Data is altijd geclassificeerd</td> 
-    <td>Zonder classificatie is niveau maatregelen van specifieke data sets niet te bepalen.</td> <td><ul><li>Controleren huidige status</li><li>BIV-classificatie beleid opstellen (o.a granulariteit)</li><li>BIV-classificatie implementatie wijze bepalen</li><li>BIV-classificatie implementatie verrichten</li></ul></td>  
+    <td>Zonder classificatie is niveau maatregelen van specifieke data sets niet te bepalen.</td> 
+    <td><ul><li>Controleren huidige status</li><li>BIV-classificatie beleid opstellen (o.a granulariteit)</li><li>BIV-classificatie implementatie wijze bepalen</li><li>BIV-classificatie implementatie verrichten</li></ul></td>  
 </tr>  
 <tr>  
     <td>B3</td> 
@@ -48,7 +49,8 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 <tr>  
     <td>B5</td> 
     <td>Veilige software code, minimaal conform Open Web Application Security Project (OWASP) standaarden</td> 
-    <td>Wanneer eigen ontwikkeling plaatsvindt of ontwikkeling is uitbesteed moet dit volgens strakke standaarden gebeuren en moet hier op gecontroleerd worden om een goede score op BIV te realiseren.</td> <td><ul><li>Controleren huidige status</li><li>Softwareontwikkeling beleid opstellen</li><li>Softwareontwikkeling beleid gebruiken als controle wijze, voor gap analyse</li><li>Softwareontwikkeling gaps oplossen</td> 
+    <td>Wanneer eigen ontwikkeling plaatsvindt of ontwikkeling is uitbesteed moet dit volgens strakke standaarden gebeuren en moet hier op gecontroleerd worden om een goede score op BIV te realiseren.</td> 
+    <td><ul><li>Controleren huidige status</li><li>Softwareontwikkeling beleid opstellen</li><li>Softwareontwikkeling beleid gebruiken als controle wijze, voor gap analyse</li><li>Softwareontwikkeling gaps oplossen</td> 
 </tr>  
 <tr>  
     <td>B6</td> 
@@ -85,7 +87,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 <tr>      
     <td>T4</td> 
     <td>Authenticatie vindt plaats via Single Sign-On na inlog bij een vertrouwde identity provider.</td>
-    <td>Gebruiksgemak en verlagen beheerlast en risico identiteit management.</br>Separaat inloggen in applicaties, platformen en informatiesystemen is ongewenst.
+    <td>Gebruiksgemak en verlagen beheerlast en risico identiteit management.</br>Separaat inloggen in applicaties, platformen en informatiesystemen is ongewenst.</td> 
     <td><ul><li>Federatieve toegang via SAML, OIDC of Oauth.</li><li>Voor legacy, on-prem systemen kan LDAP worden toegepast.</li></ul></td>
 </tr>  
 <tr>      
@@ -96,8 +98,8 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 </tr>  
 <tr>      
     <td>T6</td> 
-    <td>Alle, al dan niet geslaagde, toegangspogingen tot de IT-oplossing worden gelogd.
-    <td>Logging geeft inzicht in het gebruik, daaruit volgend trends en mogelijke aanvallen.</br>Verder is logging een vereiste om de BIV aspecten te waarborgen.
+    <td>Alle, al dan niet geslaagde, toegangspogingen tot de IT-oplossing worden gelogd.</td> 
+    <td>Logging geeft inzicht in het gebruik, daaruit volgend trends en mogelijke aanvallen.</br>Verder is logging een vereiste om de BIV aspecten te waarborgen.</td> 
     <td><ul><li>Identiteit [Id], van Identity Provider [Identity Provider] heeft op datum [D] en tijd [T], toegang gevraagd tot resource [Res].</li><li>Identiteit [Id], van Identity Provider [Identity Provider] kreeg op datum [D] en tijd [T], op grond van policy [Pol], versie [Ver] met attributenset [Attr] toegang tot resource [Res].</li></ul></td>
 </tr> 
 </table>
@@ -113,31 +115,37 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
     <td>Er wordt uitsluitend toegang verleend als de toegangsvraag op het moment van aanvraag voldoet aan de policy om toegang te krijgen</td> 
     <td>Toegang is alleen mogelijk als alle relevante stakeholders daarin toestemmen</br>Verlenen van toegang vergt actuele informatie om dynamiek te ondersteunen</td> 
     <td><ul><li>Implementeren Access Governance.</li><li>Identificeren relevante belanghebbenden</li><li>Definiëren policy structuur</li><li>Definiëren Access architectuur</li></ul></td>
+</tr> 
 <tr>  
     <td>P2</td> 
     <td>Businessrollen binnen de IAM-voorziening kunnen worden gebruikt als attributen die bij de toegangspoging worden getoetst.</td> 
     <td>Informatie uit de IAM-voorziening kan worden gebruikt als input voor de keuzes voor toegang.</td> 
     <td><ul><li>De kwaliteit van informatie uit de IAM-voorziening moet goed zijn.</li><li>De koppeling tussen rollen en de externe toegang moet worden onderhouden, i.v.m. consequenties van wijzigingen.
+</tr> 
 <tr>  
     <td>P3</td> 
     <td>Als er geen policy is gedefinieerd, wordt er geen toegang verleend.</td> 
     <td>Conform BIO H9, Default deny</td> 
     <td><ul><li>Policies moeten expliciet worden vastgesteld</li><li>Policy enforcement wordt ingericht</li></ul></td>
+</tr> 
 <tr>  
     <td>P4</td> 
     <td>Het is niet toegestaan om zonder policyverificatie toegang te krijgen</td> 
     <td>Discretionary Access Control (BIO H9)</td> 
     <td><ul><li>Zie P3</li></ul></td>
+</tr> 
 <tr>  
     <td>P5</td> 
     <td>Risicoanalyse / BIV-classificatie zijn onderdeel van de access beslissing, onderdeel van de policy</td> 
     <td>Policy based access control houdt rekening met diverse attributen en regels die door belanghebbenden zijn vastgesteld</td> 
     <td><ul><li>Policies moeten verwijzen naar risico-analyse of BIV-classificatie</li><li>Ofwel: BIV > policy uitspraken</li></ul></td>
+</tr> 
 <tr>  
     <td>P6</td> 
     <td>Betrouwbaarheid van Identity Provider, Identiteit en authenticatieniveau is onderdeel van de access beslissing</td> 
     <td>Policy based access control houdt rekening met diverse attributen en regels</td> 
     <td><ul><li>Bij inlog of toegangspoging wordt authenticatiemiddel en –niveau gevalideerd</li><li>In Federatieve berichten is Multi Factor Authenticatie-niveau in een claim beschikbaar.</li><li>Voorkeur voor Stork-claims, te mappen op eIDAS</li></ul></td>
+</tr>     
 <tr>  
     <td>P7</td> 
     <td>Alle policies van alle belanghebbenden worden getoetst binnen de toegangsvraag</td> 
