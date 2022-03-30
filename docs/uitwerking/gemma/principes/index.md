@@ -18,7 +18,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 
 <table> 
 <tr>
-    <th><b>#</b></th> <th><b>Principe/b></th> <th><b>Rationale/b></th> <th><b>Implicatie</b></th>
+    <th><b>#</b></th> <th><b>Principe</b></th> <th><b>Rationale</b></th> <th><b>Implicatie</b></th>
 </tr>  
 <tr>  
     <td>B1</td> 
