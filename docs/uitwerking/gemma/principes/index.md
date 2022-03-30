@@ -120,7 +120,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
     <td>P2</td> 
     <td>Businessrollen binnen de IAM-voorziening kunnen worden gebruikt als attributen die bij de toegangspoging worden getoetst.</td> 
     <td>Informatie uit de IAM-voorziening kan worden gebruikt als input voor de keuzes voor toegang.</td> 
-    <td><ul><li>De kwaliteit van informatie uit de IAM-voorziening moet goed zijn.</li><li>De koppeling tussen rollen en de externe toegang moet worden onderhouden, i.v.m. consequenties van wijzigingen.
+    <td><ul><li>De kwaliteit van informatie uit de IAM-voorziening moet goed zijn.</li><li>De koppeling tussen rollen en de externe toegang moet worden onderhouden, i.v.m. consequenties van wijzigingen.</li></ul></td>
 </tr> 
 <tr>  
     <td>P3</td> 
