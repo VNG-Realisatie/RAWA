@@ -7,10 +7,10 @@ title: "Aanpassing GEMMA architectuurprincipes"
 
 Ten aanzien van de referentiearchitectuur voor het werken met API's zijn op een aantal vlakken architectuurprincipes benoemd op de volgende aspecten:
 
-* [Basis op orde](./index.md#Basis_op_orde)
-* [Toegang](./index.md#Toegang)
-* [Federatie](./index.md#Federatie)
-* [Policy based accces (PBAC)](./index.md#Policy_based_accces_(PBAC))
+* [Basis op orde](./index.md#basis-op-orde)
+* [Toegang](./index.md#toegang)
+* [Policy based accces (PBAC)](./index.md#policy-based-access-control-pbac)
+* [Federatie](./index.md#federatie)
 
 Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen.
 
