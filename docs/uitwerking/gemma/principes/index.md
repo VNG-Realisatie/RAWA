@@ -1,9 +1,18 @@
 ---
 layout: page-with-side-nav
-date: 23-03-2022
+date: 30-03-2022
 title: "Aanpassing GEMMA architectuurprincipes"
 ---
 # Aanpassing en uitbreiding GEMMA architectuurprincipes
+
+Ten aanzien van de referentiearchitectuur voor het werken met API's zijn op een aantal vlakken architectuurprincipes benoemd op de volgende aspecten:
+
+* Basis op orde
+* Toegang
+* Federatie
+* Policy based accces (PBAC)
+
+Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen.
 
 ## Architectuurprincipes – Basis op orde
 
@@ -46,3 +55,11 @@ title: "Aanpassing GEMMA architectuurprincipes"
     <td><ul><li>De IdP is voorzien van een geldig TLS certificaat. Dat zal van een (in de browsers) bekende root-CA moeten zijn om externe werking te kunnen hebben.</li></ul></td>  
 </tr> 
 </table>
+
+## Architectuurprincipes – Toegang
+
+## Architectuurprincipes – Policy Based Access Control (PBAC)
+
+## Architectuurprincipes – Federatie
+
+
