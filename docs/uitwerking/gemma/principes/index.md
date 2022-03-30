@@ -50,7 +50,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
     <td>B5</td> 
     <td>Veilige software code, minimaal conform Open Web Application Security Project (OWASP) standaarden</td> 
     <td>Wanneer eigen ontwikkeling plaatsvindt of ontwikkeling is uitbesteed moet dit volgens strakke standaarden gebeuren en moet hier op gecontroleerd worden om een goede score op BIV te realiseren.</td> 
-    <td><ul><li>Controleren huidige status</li><li>Softwareontwikkeling beleid opstellen</li><li>Softwareontwikkeling beleid gebruiken als controle wijze, voor gap analyse</li><li>Softwareontwikkeling gaps oplossen</td> 
+    <td><ul><li>Controleren huidige status</li><li>Softwareontwikkeling beleid opstellen</li><li>Softwareontwikkeling beleid gebruiken als controle wijze, voor gap analyse</li><li>Softwareontwikkeling gaps oplossen</li></ul></td> 
 </tr>  
 <tr>  
     <td>B6</td> 
