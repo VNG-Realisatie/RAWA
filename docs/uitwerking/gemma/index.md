@@ -30,7 +30,7 @@ De GEMMA informatiearchitectuur bestaat uit de gegevens- en berichtenarchitectuu
  Zie [update van de GEMMA informatiearchitectuur](./informatiearchitectuur/index.md)
  
  ## GEMMA Gegevenslandschap
-Het GEMMA Gegevenslandschap is de [doelarchitectuur](https://www.gemmaonline.nl/index.php/Gegevenslandschap) die is opgesteld om als gemeenten samen met andere partijen de informatiekundige visie Common Ground te kunnen realiseren. Het GEMMA Gegevenslandschap bestaat uit een samenhangende set van afspraken, standaarden, richtlijnen en beschrijft de processen en informatiefuncties die een gemeente minimaal ingericht moet hebben om op een veilige, transparante en AVG-compliant manier te kunnen werken met gegevens en gegevensdiensten.
+Het GEMMA Gegevenslandschap is de [doelarchitectuur](https://www.gemmaonline.nl/index.php/Gegevenslandschap){:target=”_blank” rel=”noopener”} die is opgesteld om als gemeenten samen met andere partijen de informatiekundige visie Common Ground te kunnen realiseren. Het GEMMA Gegevenslandschap bestaat uit een samenhangende set van afspraken, standaarden, richtlijnen en beschrijft de processen en informatiefuncties die een gemeente minimaal ingericht moet hebben om op een veilige, transparante en AVG-compliant manier te kunnen werken met gegevens en gegevensdiensten.
 
 Binnen het GEMMA Gegevenslandschap zijn diverse functies benoemd en documenten uitgewerkt die betrekking hebben op het veilig kunnen werken met API's. Voortschrijdend inzicht vanuit het project rondom het veilig werken met APIs zal worden verwerkt in het GEMMA Gegevenslandschap. 
 
