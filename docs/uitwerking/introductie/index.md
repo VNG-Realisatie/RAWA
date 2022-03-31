@@ -96,7 +96,7 @@ Belangrijk is dat wel de identiteit als kenmerk wordt meegegeven, want de SP moe
 * Digid BSN heeft op datum(D) om tijd(T) op grond van regel(R)-versieV() toegang gekregen tot Applicatiefunctie(A)
 
 ### Zero Trust architectuur
-[Zero Trust](https://www.nist.gov/publications/zero-trust-architecture) is de moderne invulling van een oud gedachtengoed: laat de data zichzelf beschermen, zodat we geen last hebben van mensen die toegang of autorisaties nodig hebben. De data, of andere resources kennen die mensen niet, dus hoe kunnen ze iemand dan ook toegang verlenen? Het concept van ZTA kent twee hoofdlijnen:
+[Zero Trust](https://www.nist.gov/publications/zero-trust-architecture){:target=”_blank” rel=”noopener”} is de moderne invulling van een oud gedachtengoed: laat de data zichzelf beschermen, zodat we geen last hebben van mensen die toegang of autorisaties nodig hebben. De data, of andere resources kennen die mensen niet, dus hoe kunnen ze iemand dan ook toegang verlenen? Het concept van ZTA kent twee hoofdlijnen:
 
 * Netwerkbeveiliging
     * Uitgangspunt onder andere Assume Breach, waarbij netwerk technisch belemmeringen worden opgelegd, zoals isolatie van netwerken, maar ook end-to-end versleuteling.
