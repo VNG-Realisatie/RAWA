@@ -34,7 +34,7 @@ Het project is in begin februari 2022 gestart. De verwachtte doorlooptijd van de
 ## Bijdragen aan het project
 Gemeenten en leveranciers worden aangemoedigd om bij te dragen aan het project. Onderstaande links geven informatie over hoe u uw bijdrage kan leveren.
 
-- Hoe u kunt [bijdragen] aan dit project(https://github.com/VNG-Realisatie/Tutorial/blob/master/CONTRIBUTING.md){:target="_blank" rel="noopener"}
+- Hoe u kunt [bijdragen](https://github.com/VNG-Realisatie/Tutorial/blob/master/CONTRIBUTING.md){:target="_blank" rel="noopener"} aan dit project
 - [Omgangsvormen](https://github.com/VNG-Realisatie/Tutorial/blob/master/CODE_OF_CONDUCT.md){:target="_blank" rel="noopener"}
 
 
