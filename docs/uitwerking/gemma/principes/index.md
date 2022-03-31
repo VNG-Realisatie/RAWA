@@ -69,7 +69,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 <tr>  
     <td>T1</td> 
     <td>Toegangsregels (tot welk object dan ook) worden rekening houdend met risicoanalyse op basis van BIV classificatie bepaald.</td> 
-    <td>Bij een minimaal risico, hoeven er vanuit de optiek van efficiency alleen minimale beveiligingsmaatregelen te worden getroffen</br>Identiteiten kunnen zijn: mensen, services, processen, componenten, Robot Processing Automation (RPA), devices, dus zowel ‘human’ als ‘non-human’.</td> 
+    <td>Bij een minimaal risico, hoeven er vanuit de optiek van efficiency alleen minimale beveiligingsmaatregelen te worden getroffen<br>Identiteiten kunnen zijn: mensen, services, processen, componenten, Robot Processing Automation (RPA), devices, dus zowel ‘human’ als ‘non-human’.</td> 
     <td><ul><li>Openbare informatie (C=laag) mag publiek toegankelijk zijn voor raadplegen (niet voor muteren, waar voor openbare informatie I=Hoog geldt).</li></ul></td>  
 </tr>  
 <tr>      
@@ -87,7 +87,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 <tr>      
     <td>T4</td> 
     <td>Authenticatie vindt plaats via Single Sign-On na inlog bij een vertrouwde identity provider.</td>
-    <td>Gebruiksgemak en verlagen beheerlast en risico identiteit management.</br>Separaat inloggen in applicaties, platformen en informatiesystemen is ongewenst.</td> 
+    <td>Gebruiksgemak en verlagen beheerlast en risico identiteit management.<br>Separaat inloggen in applicaties, platformen en informatiesystemen is ongewenst.</td> 
     <td><ul><li>Federatieve toegang via SAML, OIDC of Oauth.</li><li>Voor legacy, on-prem systemen kan LDAP worden toegepast.</li></ul></td>
 </tr>  
 <tr>      
@@ -99,7 +99,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 <tr>      
     <td>T6</td> 
     <td>Alle, al dan niet geslaagde, toegangspogingen tot de IT-oplossing worden gelogd.</td> 
-    <td>Logging geeft inzicht in het gebruik, daaruit volgend trends en mogelijke aanvallen.</br>Verder is logging een vereiste om de BIV aspecten te waarborgen.</td> 
+    <td>Logging geeft inzicht in het gebruik, daaruit volgend trends en mogelijke aanvallen.<br>Verder is logging een vereiste om de BIV aspecten te waarborgen.</td> 
     <td><ul><li>Identiteit [Id], van Identity Provider [Identity Provider] heeft op datum [D] en tijd [T], toegang gevraagd tot resource [Res].</li><li>Identiteit [Id], van Identity Provider [Identity Provider] kreeg op datum [D] en tijd [T], op grond van policy [Pol], versie [Ver] met attributenset [Attr] toegang tot resource [Res].</li></ul></td>
 </tr> 
 </table>
@@ -113,7 +113,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 <tr>  
     <td>P1</td> 
     <td>Er wordt uitsluitend toegang verleend als de toegangsvraag op het moment van aanvraag voldoet aan de policy om toegang te krijgen</td> 
-    <td>Toegang is alleen mogelijk als alle relevante stakeholders daarin toestemmen</br>Verlenen van toegang vergt actuele informatie om dynamiek te ondersteunen</td> 
+    <td>Toegang is alleen mogelijk als alle relevante stakeholders daarin toestemmen<br>Verlenen van toegang vergt actuele informatie om dynamiek te ondersteunen</td> 
     <td><ul><li>Implementeren Access Governance.</li><li>Identificeren relevante belanghebbenden</li><li>Definiëren policy structuur</li><li>Definiëren Access architectuur</li></ul></td>
 </tr> 
 <tr>  
@@ -210,13 +210,13 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 </tr>  
 <tr>  
     <td>F9</td>
-    <td>De Identity Provider moet voldoen aan de aansluitvoorwaarden</br>mn. kwaliteit in-, door- en uitstroomproces, security-eisen, kosten.</td>
+    <td>De Identity Provider moet voldoen aan de aansluitvoorwaarden<br>mn. kwaliteit in-, door- en uitstroomproces, security-eisen, kosten.</td>
     <td>De basis van een Identity Provider is het verstrekken van een vertrouwde identiteit en daar horen strenge eisen bij vanuit de SPs.</td>
     <td><ul><li>De Identity Provider moet bepalen welk niveau van eisen zij gaan invullen en welke SPs zij willen bedienen.</li></ul></td>
 </tr>  
 <tr>  
     <td>F10</td>
-    <td>De Service Provider moet voldoen aan de aansluitvoorwaarden</br>mn. privacyborging, doelbinding etc.</td>
+    <td>De Service Provider moet voldoen aan de aansluitvoorwaarden<br>mn. privacyborging, doelbinding etc.</td>
     <td>Net als bij een Identity Provider zijn er bepaalde eisen waar een Service Provider aan moet voldoen.</td>
     <td><ul><li>SPs moeten duidelijk stellen waarvoor zij de identiteit informatie gebruiken en de consequenties van veranderingen zijn.</li><li>Consent moet opnieuw worden gevraagd bij de identiteit bij een wijziging.</li></ul></td>
 </tr> 
