@@ -193,6 +193,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 | Local Authorization | Local authorization is handled by the RP. | [IAM Reference Architecture](https://bok.idpro.org/article/id/76/){:target="_blank" rel="noopener"} |
 
 ## M
+
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
 | Metadata Management | The processes and techniques that allow the collection, use, and eventual deletion of control data used by the IDM to recognize and trust the Relying Party. This corresponds to Relying Party data in the Internet2 model. | [IAM Reference Architecture](https://bok.idpro.org/article/id/76/){:target="_blank" rel="noopener"} |
