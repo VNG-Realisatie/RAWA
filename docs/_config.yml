@@ -49,3 +49,6 @@ remote_theme: VNG-Realisatie/jekyll-theme-vng-realisatie
 project_name: /IAM
 
 standard_family: nvt
+
+kramdown:
+  input: Kramdown
