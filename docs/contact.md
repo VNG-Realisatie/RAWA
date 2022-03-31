@@ -10,6 +10,9 @@ VNG Realisatie werkt samen met een kennispartner (SonicBee) aan de ontwikkeling 
 Github: [github.com/VNG-Realisatie/IAM](https://github.com/VNG-Realisatie/IAM){:target=”_blank” rel=”noopener”}  
 E-mail (ook voor toegang tot Github): [standaarden.ondersteuning@vng.nl](mailto:standaarden.ondersteuning@vng.nl)
 
+## Bijdragen
+Als u wilt bijdragen aan dit project kunt u [hier](https://github.com/VNG-Realisatie/Tutorial/blob/master/CONTRIBUTING.md){:target="_blank" rel="noopener"} de instructies vinden.
+
 ## VNG Realisatie
 Telefoon: [070 373 8008](tel:0031703738008)  
 E-mail: [realisatie@vng.nl](mailto:realisatie@vng.nl)
