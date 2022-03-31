@@ -12,7 +12,7 @@ Dit gegevenswoordenboek beschrijft de termen en begrippen die binnen het project
 
 | **Term** | **Definition** | **Source** |
 | --- | --- | --- |
-| Abstraction | the practice of identifying and isolating repeated aspects of operations or business logic so that they can be maintained in one place and referenced in many places. | [Policy-Based Access Controls](https://bok.idpro.org/article/id/61/){:target=”_blank” rel=”noopener”} |
+| Abstraction | the practice of identifying and isolating repeated aspects of operations or business logic so that they can be maintained in one place and referenced in many places. | [Policy-Based Access Controls](https://bok.idpro.org/article/id/61/){:target="_blank" rel="noopener"} |
 | Access Certification | Certification is the ongoing review of who has which accesses (i.e., the business process to verify that access rights are correct). | [Introduction to Identity - Part 1: Admin-time (v2)](https://bok.idpro.org/article/id/27/){:target=”_blank” rel=”noopener”} |
 | Access Control | Controlling who can have access to data, systems, services, resources, locations. The &#39;Who&#39; can be a user, a device or thing, a service | [Introduction to Access Control](https://bok.idpro.org/article/id/42/){:target=”_blank” rel=”noopener”} |
 | Access Control | Various methods to limit access to data, systems, services, resources, locations by a user, a device or thing, or a service. | [IAM Reference Architecture](https://bok.idpro.org/article/id/76/){:target=”_blank” rel=”noopener”} |

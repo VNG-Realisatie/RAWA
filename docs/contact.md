@@ -7,7 +7,7 @@ title: 'Contact'
 VNG Realisatie werkt samen met een kennispartner (SonicBee) aan de ontwikkeling van de referentiearchitectuur voor het veilig kunnen werken met API's. De producten die in het kader van dit project worden ontwikkeld maken deel uit van de Gemeentelijke Model Architectuur (GEMMA) en worden beheerd door het kenniscentrum Architectuur en Standaarden van VNG Realisatie.
 
 ## Contact met het beheer- en ontwikkelteam van de Logging van Verwerkingsactiviteiten API
-Github: [github.com/VNG-Realisatie/IAM](https://github.com/VNG-Realisatie/IAM){:target=”_blank” rel=”noopener”}  
+Github: [github.com/VNG-Realisatie/IAM](https://github.com/VNG-Realisatie/IAM){:target="_blank" rel="noopener"} 
 E-mail (ook voor toegang tot Github): [standaarden.ondersteuning@vng.nl](mailto:standaarden.ondersteuning@vng.nl)
 
 ## Bijdragen
