@@ -5,6 +5,21 @@ title: "Aanpassing GEMMA architectuurprincipes"
 ---
 # Aanpassing en uitbreiding GEMMA architectuurprincipes
 
+Door de, mede vanuit de Common Ground informatiekundige visie, aanbevolen scheiding van processen en gegevens en het verschaffen van toegang tot gegevens uit bronregistraties via moderne API's is er de behoefte aan een herinrichting van de wijze waarop toegang tot processen en gegevens wordt vormgegeven. Het veel gehanteerde concept van het autoriseren van gebruikers door middel van een rollenstructuur is niet schaalbaar genoeg en voldoet in deze nieuwe inrichting niet meer aan de eisen die gesteld worden vanuit privacy- en informatiebeveiligings wet- en regelgeving. Nieuwe architectuurprincipes en -patronen zijn vereist.
+
+Binnen het project Referentiearchitectuur voor het werken met API's wordt een moderne inrichting voor het werken met API's opgezet die gebruik maakt van concepten zoals Zero Trust en Policy Based Access. Deze concepten maken het mogelijk om op een veilige, schaalbare, navolgbare en toekomstvaste wijze toegang te verlenen tot API's binnen- en buiten de eigen informatievoorziening. 
+Andere 
+ 
+Het ontwikkelen van de nieuwe architectuur wordt gerealiseerd een agile aanpak. De onderstaande set van architectuurprincipes vormen de eerste iteratie van deze principer. Uitgangspunten die gehanteerd zijn bij het definiëren van deze archituurprincipes:
+
+- Transitie van platformen naar protocollen
+- API access op grond van federatieve protocollel
+- Toekomstige oplossing richting Zero Trust Architectuur
+- Toegang op basis van policy based access control
+- Granulariteit van API's en hiërarchie van policies als onderliggend uitgangspunt.
+
+De projectgroep onderkent dat deze transities een lange doorlooptijd hebben en traditionele en moderne methodes ruime tijd naast elkaar moeten kunnen blijven bestaan.
+
 Ten aanzien van de referentiearchitectuur voor het werken met API's zijn op een aantal vlakken architectuurprincipes benoemd op de volgende aspecten:
 
 * [Basis op orde](./index.md#basis-op-orde)
