@@ -8,7 +8,7 @@ title: "Referentiearchitectuur en -componenten"
 Voor het veilig werken met API's wordt een refrentiearchitectuur nagestreeft die gebaseerd is op een zogenaamde 'Zero trust' architectuur. Zero trust is het concept waarbij niets wordt vertrouwt – of het nu binnen of buiten de grenzen van de organisatie gebeurt – zonder eerst te controleren wie en wat verbinding probeert te maken. 
 
 ## Uitwerking
-Onderstaand figuur schets (een deel van) de referentiearchitectuur die wordt nagestreeft voor het veilig en transparant kunnen werken met API's. Deze referentiearchitectuur is gebaseerd op de principes van een [Zero Trust architectuur](https://www.nist.gov/publications/zero-trust-architecture){:target=”_blank” rel=”noopener”}.
+Onderstaand figuur schets (een deel van) de referentiearchitectuur die wordt nagestreeft voor het veilig en transparant kunnen werken met API's. Deze referentiearchitectuur is gebaseerd op de principes van een [Zero Trust architectuur](https://www.nist.gov/publications/zero-trust-architecture){:target="_blank" rel="noopener"}.
 
 ![Referentiearchitectuur en -componenten](./assets/referentiearchitectuur.png){:width="500px"}
 
@@ -38,20 +38,20 @@ Kanttekening: De policies maken onderdeel uit van de Policy Engine.
 
 ### Overzicht referentiecomponenten en (markt)oplossingen 
 IDP – Identity provider / (Identity broker)
-* [Keycloak](https://www.keycloak.org/){:target=”_blank” rel=”noopener”} (Open Source)
-* [Authentik](https://goauthentik.io/){:target=”_blank” rel=”noopener”} (Open Source)
+* [Keycloak](https://www.keycloak.org/){:target="_blank" rel="noopener"} (Open Source)
+* [Authentik](https://goauthentik.io/){:target="_blank" rel="noopener"} (Open Source)
 * Okta
 * Auth0
 * Azure AD
 
 PE – Policy engine
-* [OPA, Open Policy Agent](https://www.openpolicyagent.org/){:target=”_blank” rel=”noopener”} (Open Source)
+* [OPA, Open Policy Agent](https://www.openpolicyagent.org/){:target="_blank" rel="noopener"} (Open Source)
 * Axiomatics
 * PlainID
 
 API Gateway
-* [Kong](https://konghq.com/kong/){:target=”_blank” rel=”noopener”} (Open Source)
-* [Nginx](https://www.nginx.com/){:target=”_blank” rel=”noopener”} (Open Source)
+* [Kong](https://konghq.com/kong/){:target="_blank" rel="noopener"} (Open Source)
+* [Nginx](https://www.nginx.com/){:target="_blank" rel="noopener"} (Open Source)
 * Mulesoft
 * Axway
 
