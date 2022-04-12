@@ -7,10 +7,9 @@ title: "Aanpassing GEMMA architectuurprincipes"
 
 Door de, mede vanuit de Common Ground informatiekundige visie, aanbevolen scheiding van processen en gegevens en het verschaffen van toegang tot gegevens uit bronregistraties via moderne API's is er de behoefte aan een herinrichting van de wijze waarop toegang tot processen en gegevens wordt vormgegeven. Het veel gehanteerde concept van het autoriseren van gebruikers door middel van een rollenstructuur is niet schaalbaar genoeg en voldoet in deze nieuwe inrichting niet meer aan de eisen die gesteld worden vanuit privacy- en informatiebeveiligings wet- en regelgeving. Nieuwe architectuurprincipes en -patronen zijn vereist.
 
-Binnen het project Referentiearchitectuur voor het werken met API's wordt een moderne inrichting voor het werken met API's opgezet die gebruik maakt van concepten zoals Zero Trust en Policy Based Access. Deze concepten maken het mogelijk om op een veilige, schaalbare, navolgbare en toekomstvaste wijze toegang te verlenen tot API's binnen- en buiten de eigen informatievoorziening. 
-Andere 
+Binnen het project Referentiearchitectuur voor het werken met API's wordt een moderne inrichting voor het werken met API's opgezet die gebruik maakt van concepten zoals Zero Trust en Policy Based Access. Deze concepten maken het mogelijk om op een veilige, schaalbare, navolgbare en toekomstvaste wijze toegang te verlenen tot API's binnen- en buiten de eigen informatievoorziening.  
  
-Het ontwikkelen van de nieuwe architectuur wordt gerealiseerd een agile aanpak. De onderstaande set van architectuurprincipes vormen de eerste iteratie van deze principer. Uitgangspunten die gehanteerd zijn bij het definiëren van deze archituurprincipes:
+Het ontwikkelen van de nieuwe architectuur wordt gerealiseerd een agile aanpak. De onderstaande set van architectuurprincipes vormen de eerste iteratie van deze principes. Uitgangspunten die gehanteerd zijn bij het definiëren van deze archituurprincipes:
 
 - Transitie van platformen naar protocollen
 - API access op grond van federatieve protocollel
@@ -178,7 +177,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 <tr>  
     <td>F1</td> 
     <td>Alle intern beheerde identiteiten worden per definitie vertrouwd als onderdeel van eigen beheercontext.</td>
-    <td>et HR beheerproces voor alle interne identiteiten is vertrouwd en levert betrouwbare identiteiten en attributen.</td>
+    <td>Het HR beheerproces voor alle interne identiteiten is vertrouwd en levert betrouwbare identiteiten en attributen.</td>
     <td><ul><li>De juiste maatregelen zijn ingeregeld om controle van interne identiteiten te borgen.</li></ul></td>
 </tr>  
 <tr>  
@@ -201,7 +200,7 @@ Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen
 </tr>  
 <tr>  
     <td>F5</td>
-    <td>De Identity Provider beschikt over een multi-factor authenticatiefaciliteit (Multi Factor Authenticatie).</td>
+    <td>De Identity Provider beschikt over een multi-factor authenticatiefaciliteit (MFA).</td>
     <td>Multi Factor Authenticatie is een extra validatie- & beschermingsmaatregel voor de authenticatie tot de Identity Provider.</td>
     <td><ul><li>Gebruikers kunnen hun Multi Factor Authenticatie kwijtraken wat leidt tot het niet verkrijgen van toegang.</li><li>Onderzoeken welke Multi Factor Authenticatie mogelijkheden geboden moeten worden.</li></ul></td>
 </tr>  
