@@ -12,7 +12,7 @@ Het project Referentiearchtiectuur Werken met API’s is gestart gaat in de eers
 * Handreiking voor implementatie (alleen wat nodig is ter overbrugging naar API-documentatie).
 
 ## Project documentatie
-De volledige documentatie van de API-standaard is via de standaard Github navigatie beschikbaar via [deze link](./docs/index.md) maar kan ook via een [gebruiksvriendelijke html interface (Github Pages)](https://vng-realisatie.github.io/IAM/) worden benaderd.
+De volledige documentatie van de API-standaard is via de standaard Github navigatie beschikbaar via [deze link](./docs/index.md) maar kan ook via een [gebruiksvriendelijke html interface (Github Pages)](https://vng-realisatie.github.io/RAWA/) worden benaderd.
 
 ## Status 
 Het project is in begin februari 2022 gestart. De verwachtte doorlooptijd van de eerste fase van het project is drie tot vier maanden. Het projectteam werkt in sprints van drie weken. De sprintplanning van het project is op deze site te vinden. Na afloop van een sprint worden de resulaten van de sprint in een publiek toegankelijke demo gepresenteerd.
