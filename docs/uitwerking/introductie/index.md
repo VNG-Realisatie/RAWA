@@ -10,21 +10,20 @@ In deze introductie worden de verschillende varianten van toegangs- en informati
 “Wie mag wat en waarom is dat zo” is een belangrijke vraag binnen informatiebeveiliging en voor privacybescherming.
 Traditioneel wordt dit opgelost door mensen accounts en autorisaties in informatiesystemen te geven. Bijvoorbeeld: een actor krijgt een autorisatie. 
 
-![Actor autorisatie](./assets/actorautorisatie1.png){:width="300px"}
-
+<img src="./assets/actorautorisatie1.png" alt="Actor autorisatie" width="300"/>
 
 In alle plaatjes in dit document zijn de pijlen feitelijk ‘n:m’ relaties, dat wil zeggen dat een actor meerdere autorisaties kan hebben en dat aan een autorisatie meerdere actoren kunnen zin gekoppeld. Een klein voorbeeld:
 
-![Actor autorisatie](./assets/actorautorisatie2.png){:width="300px"}
+<img src="./assets/actorautorisatie2.png" alt="Actor autorisatie" width="300"/>
 
 Deze methodiek herkennen we in bijvoorbeeld sharepoint: iemand die een document plaatst, mag aangeven wie het document mag lezen of bewerken. Technisch heet dat een Access Control List.
 
-![Access Control List](./assets/ACL.png){:width="300px"}
+<img src="./assets/ACL.png" alt="Access Control List" width="300"/>
 
 ### Role Based Access (RBAC)
 Door de groei van de informatieverwerking is het handmatig toekennen en intrekken van afzonderlijke autorisaties aan individuele personen niet meer haalbaar. Voor de vereenvoudiging daarvan wordt gebruik gemaakt van het concept Role Based Access Control (RBAC), waarin iemand een rol krijgt toebedeeld en daarmee de autorisaties die aan de rol zijn gekoppeld automatisch kan gebruiken.
 
-![Role Based Access (RBAC)](./assets/RBAC.png){:width="300px"}
+<img src="./assets/RBAC.png" alt="Role Based Access (RBAC)" width="300"/>
 
 Als iemand anders dezelfde rol gaat vervullen, dan krijgt die persoon automatisch dezelfde autorisaties.
 
@@ -36,16 +35,17 @@ Het begrip rol kan in het kader van RBAC dus meerdere betekenissen hebben:
 
 Dit maakt ruimte voor een verdere uitbreiding van het RBAC model door de organisatiestructuur en de applicatiestructuur te ontkoppelen. De organisatiestructuur leidt tot bedrijfsrollen en de applicatiestructuur tot applicatierollen. Een bedrijfsrol wordt daarbij gekoppeld aan een applicatierol.
 
-![Role Based Access (RBAC)](./assets2/RBAC.png){:width="300px"}
+<img src="./assets/RBAC2.png" alt="Role Based Access (RBAC)" width="300"/>
 
 Zolang deze relaties duidelijk zijn, is RBAC prima toepasbaar, al laten we voor het gemak achterliggende governance en compliance vragen even buiten beschouwing.
 Momenteel wordt echter in steeds grotere mate gebruik gemaakt van informatiesystemen die door identiteiten vanuit een andere context benaderd worden. Dat betekent dat een koppelingen als identiteit-rol en rol-autorisatie niet meer in één hand zijn en de betekenis van het begrip rol niet meer eenduidig is.
 
-![Role Based Access (RBAC)](./assets/RBAC3.png){:width="300px"}
+<img src="./assets/RBAC3.png" alt="Role Based Access (RBAC)" width="300"/>
 
 Om dit probleem op te lossen, werd in het verleden een kopie-identiteit (een account) gemaakt binnen de context van het informatiesysteem om de relatie zuiver te houden. Een individu binnen de eigen context kreeg een tweede ‘identiteit’, een account, binnen de context van de applicatie
+<img src="./assets/RBAC.png" alt="Role Based Access (RBAC)" width="300"/>
 
-![Role Based Access (RBAC)](./assets/RBAC4.png){:width="300px"}
+<img src="./assets/RBAC4.png" alt="Role Based Access (RBAC)" width="300"/>
 
 En dat zorgt voor grote problemen:
 
@@ -58,7 +58,7 @@ Hierdoor is schaalbaarheid, naast kosten, een groot probleem.
 ### Federatie
 De oplossing is te vinden in het concept van federatie. Federatie betekent het vertrouwen op identiteiten van derden, Een informatiesysteemeigenaar (de zogenaamde Service Provider of SP, de leverancier van digitale diensten) kan besluiten om te vertrouwen op het identiteitenbeheer van een andere organisatie (de Identity Provider) en kan op basis van een contractuele relatie besluiten om functionaliteit beschikbaar te stellen aan identiteiten van de Identity Provider (ook wel IdP genoemd) van die andere partij. Bezien vanuit de systeemeigenaar is alles binnen de andere contractpartner, inclusief alle beheerde identiteiten, een black box:
 
-![Federatie](./assets/federatie.png){:width="300px"}
+<img src="./assets/federatie.png" alt="Federatie" width="300"/>
 
 Zoals te zien is, wordt er geen nieuwe account gemaakt, de service provider vertrouwt de identiteit van de identity provider en verleent alleen toegang. Er is geen sprake van inloggen, alleen van toegang verkrijgen. Het mag duidelijk zijn dat er in het contract wel concrete afspraken gemaakt moeten worden.
 
@@ -70,11 +70,11 @@ Voor deze werkwijze wordt gebruik gemaakt van moderne technologie die het concep
 Een voorbeeld:
 DigiD is de digitale identiteit van burgers verstrekt door de IdP, in casu DigiD, beheerd door Logius. Met deze digitale identiteit kunnen burgers toegang krijgen bij overheidsdiensten. Een burger die bij een gemeente een vergunning aan wil vragen, logt in bij DigiD en krijgt op grond van het BSN dat als attribuut door DigiD aan de gemeente wordt verstrekt in een SAML-bericht, toegang bij de gemeente.
 
-![DigiD](./assets/digid.png){:width="300px"}
+<img src="./assets/digid.png" alt="DigiD" width="300"/>
 
 En als de burger nog niet is ingelogd bij DigiD, zal de mijngemeente.nl website de mogelijkheid bieden om bij DigiD in te loggen.
 
-![MijnOverheid](./assets/mijnoverheid.png){:width="300px"}
+<img src="./assets/mijnoverheid.png" alt="MijnOverheid" width="300"/>
 
 Er wordt bij mijngemeente.nl geen account en wachtwoord beheerd. Mijngemeente.nl vertrouwt erop dat DigiD het beheer van de identiteit, het wachtwoord en het 06-nummer goed voor elkaar heeft.
 Het contract tussen de beide partijen bevat de volgende onderdelen:
@@ -96,7 +96,7 @@ Belangrijk is dat wel de identiteit als kenmerk wordt meegegeven, want de SP moe
 * Digid BSN heeft op datum(D) om tijd(T) op grond van regel(R)-versieV() toegang gekregen tot Applicatiefunctie(A)
 
 ### Zero Trust architectuur
-[Zero Trust](https://www.nist.gov/publications/zero-trust-architecture){:target="_blank" rel="noopener"} is de moderne invulling van een oud gedachtengoed: laat de data zichzelf beschermen, zodat we geen last hebben van mensen die toegang of autorisaties nodig hebben. De data, of andere resources kennen die mensen niet, dus hoe kunnen ze iemand dan ook toegang verlenen? Het concept van ZTA kent twee hoofdlijnen:
+[Zero Trust](https://www.nist.gov/publications/zero-trust-architecture) is de moderne invulling van een oud gedachtengoed: laat de data zichzelf beschermen, zodat we geen last hebben van mensen die toegang of autorisaties nodig hebben. De data, of andere resources kennen die mensen niet, dus hoe kunnen ze iemand dan ook toegang verlenen? Het concept van ZTA kent twee hoofdlijnen:
 
 * Netwerkbeveiliging
     * Uitgangspunt onder andere Assume Breach, waarbij netwerk technisch belemmeringen worden opgelegd, zoals isolatie van netwerken, maar ook end-to-end versleuteling.
