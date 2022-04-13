@@ -7,12 +7,12 @@ title: "Aanpassing GEMMA architectuurprincipes"
 
 Door de, mede vanuit de Common Ground informatiekundige visie, aanbevolen scheiding van processen en gegevens en het verschaffen van toegang tot gegevens uit bronregistraties via moderne API's is er de behoefte aan een herinrichting van de wijze waarop toegang tot processen en gegevens wordt vormgegeven. Het veel gehanteerde concept van het autoriseren van gebruikers door middel van een rollenstructuur is niet schaalbaar genoeg en voldoet in deze nieuwe inrichting niet meer aan de eisen die gesteld worden vanuit privacy- en informatiebeveiligings wet- en regelgeving. Nieuwe architectuurprincipes en -patronen zijn vereist.
 
-Binnen het project Referentiearchitectuur voor het werken met API's wordt een moderne inrichting voor het werken met API's opgezet die gebruik maakt van concepten zoals Zero Trust en Policy Based Access. Deze concepten maken het mogelijk om op een veilige, schaalbare, navolgbare en toekomstvaste wijze toegang te verlenen tot API's binnen- en buiten de eigen informatievoorziening.  
+Binnen het project Referentiearchitectuur voor het werken met API's wordt een moderne inrichting voor het werken met API's opgezet die gebruik maakt van concepten zoals Zero Trust en Policy Based Access. Deze concepten maken het mogelijk om op een veilige, schaalbare, controleerbare en toekomstvaste wijze toegang te verlenen tot API's binnen- en buiten de eigen informatievoorziening.  
  
 Het ontwikkelen van de nieuwe architectuur wordt gerealiseerd een agile aanpak. De onderstaande set van architectuurprincipes vormen de eerste iteratie van deze principes. Uitgangspunten die gehanteerd zijn bij het definiëren van deze archituurprincipes:
 
 - Transitie van platformen naar protocollen
-- API access op grond van federatieve protocollel
+- API access op grond van federatieve protocollen
 - Toekomstige oplossing richting Zero Trust Architectuur
 - Toegang op basis van policy based access control
 - Granulariteit van API's en hiërarchie van policies als onderliggend uitgangspunt.
@@ -28,7 +28,7 @@ Ten aanzien van de referentiearchitectuur voor het werken met API's zijn op een 
 
 Deze architectuurprincipes worden als aanvulling op de GEMMA principes opgenomen.
 
-> De onderstaande principes zijn de eerste conceptversie van de principes voor het (veilig) werken met API's. Gemeenten en leveranciers worden hierbij uitgenodigd om input te leveren op deze concept principes. Het geven van input in de vorm van suggesties voor aanpassing van de principes of suggesties voor het toevoegen van nieuwe principes kan via het aanmaken van een [Github issue](https://github.com/VNG-Realisatie/IAM/issues){:target="_blank" rel="noopener"} of door een email te sturen naar de [product owner](mailto:arnoud.quanjer@vng.nl) van de referentiearchitectuur voor het werken met API's.
+> De onderstaande principes zijn de eerste conceptversie van de principes voor het (veilig) werken met API's. Gemeenten en leveranciers worden hierbij uitgenodigd om input te leveren op deze concept principes. Het geven van input in de vorm van suggesties voor aanpassing van de principes of suggesties voor het toevoegen van nieuwe principes kan via het aanmaken van een [Github issue](https://github.com/VNG-Realisatie/RAWA/issues){:target="_blank" rel="noopener"} of door een email te sturen naar de [product owner](mailto:arnoud.quanjer@vng.nl) van de referentiearchitectuur voor het werken met API's.
 
 ## Basis op orde
 
