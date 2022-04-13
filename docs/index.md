@@ -22,7 +22,7 @@ Het project Referentiearchtiectuur Werken met API’s gaat in de eerste helft va
 Het project is in begin februari 2022 gestart. De verwachtte doorlooptijd van de eerste fase van het project is drie tot vier maanden. Het projectteam werkt in sprints van drie weken. De sprintplanning van het project is op deze site te vinden. Na afloop van een sprint worden de resulaten van de sprint in een publiek toegankelijke demo gepresenteerd.
 
 ## Uitwerking deelonderwerpen
-- [Scope van het project](./scope/index.md)
+- [Scope van het project](./scope.md)
 - [Introductie tot Toegang en informatiebeveiliging](./uitwerking/introductie/index.md)
 - [Referentiearchitectuur](./uitwerking/referentiearchitectuur/index.md)
 - [Functionele use cases](./uitwerking/cases/index.md)
