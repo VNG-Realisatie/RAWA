@@ -54,6 +54,7 @@ Realisatie van de bovenstaande omschreven stack heeft als hoofdzakelijke doelste
 8.  De respons wordt teruggekoppeld aan de Client.
 
 ## Overzicht referentiecomponenten
+
 |IDP - Identity provider|PE - Policy Engine     |API gateway            |
 |:---------------------:|:---------------------:|:---------------------:|
 |Keycloak								|OPA - Open Policy Agent|Kong										|
