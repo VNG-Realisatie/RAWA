@@ -19,8 +19,6 @@ nav:
         path: /uitwerking/introductie
       - title: Achtergrond
         path: /uitwerking/achtergrond  
-      - title: Use cases
-        path: /uitwerking/cases
       - title: Referentiearchitectuur  
         path: /uitwerking/referentiearchitectuur
       - title: GEMMA aanpassingen  
