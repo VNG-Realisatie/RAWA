@@ -23,12 +23,12 @@ Het project is in begin februari 2022 gestart. De verwachtte doorlooptijd van de
 
 ## Uitwerking deelonderwerpen
 - [Scope van het project](./scope.md)
+- [Achtergrond van het project](./uitwerking/achtergrond/index.md)
 - [Introductie tot Toegang en informatiebeveiliging](./uitwerking/introductie/index.md)
 - [Referentiearchitectuur](./uitwerking/referentiearchitectuur/index.md)
-- [Functionele use cases](./uitwerking/cases/index.md)
 - [Uitbreiding GEMMA](./uitwerking/gemma/index.md)
 - [Gemeentelijke best-practices](./uitwerking/practices/index.md)
-- [Inrichtingsscenarios](./uitwerking/inrichtingsscenarios/index.md)
+- [Implementatiescenarios](./uitwerking/implementatiescenarios/index.md)
 - [Terminologie](./uitwerking/terminologie/index.md)
 
 ## Bijdragen aan het project
