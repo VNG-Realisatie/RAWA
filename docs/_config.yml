@@ -17,6 +17,8 @@ nav:
     subnav:
       - title: Introductie
         path: /uitwerking/introductie
+      - title: Achtergrond
+        path: /uitwerking/achtergrond  
       - title: Use cases
         path: /uitwerking/cases
       - title: Referentiearchitectuur  
