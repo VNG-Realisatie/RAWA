@@ -9,7 +9,7 @@ De wens om te komen tot een referentiearchitectuur rondom het werken met API’s
 ## Referentiemodel NORA
 Onderstaand figuur geeft de referentiearchitectuur van de NORA weer op het gebied van identity en access management. Het is een belangrijke referentiearchitectuur die we binnen het Werken met API’s project als basis voor een nadere uitwerking gebruiken.
 
-<img src="./assets/nora_1.png" alt="NORA referentiearchitectuur IAM" width="300"/>
+<img src="./assets/nora_1.png" alt="NORA referentiearchitectuur IAM" width="500"/>
 
 Wat we in de bovenstaande identity en access management referentiearchitectuur onderscheiden is dat Identity management (identiteitenbeheer) en Access management (toegangsbeheer) twee verschillende begrippen zijn. Identiteitenbeheer bestaat uit het beheer van identiteiten enerzijds en de middelen waarmee een identiteit kan worden aangetoond. Identiteitenbeheer gaat over inhuur, instroom, doorstroom en uitstroom van medewerkers en de identiteiten van derde- en federatieve partijen. Het gaat dus identiteiten die toegang verleend kunnen worden. Via een authenticatiemiddel toon je met een bepaalde zekerheid aan dat je ook daadwerkelijk degene bent waarvan je zegt dat je het bent.
 
@@ -22,7 +22,7 @@ Identiteitenbeheer en toegangsbeheer zijn verschillende vakgebieden die een onde
 
 Identiteitenbeheer en toegangsbeheer is een breed vakgebied wat veel verschillende domeinen raakt. Onderstaand figuur illustreert dit. Hierbij valt op te merken dat de omvang van de ellipsen in het figuur ook aangeven wat de omvang van de populatie is die toegang verleend wordt. 
 
-<img src="./assets/iam_vakgebied.png" alt="IAM vakgebied" width="300"/>
+<img src="./assets/iam_vakgebied.png" alt="IAM vakgebied" width="500"/>
 
 Het gaat vanaf privileged users en speciale admin en root omgevingen waar beherende entiteiten mee werken naar business-to-employee waaronder instroom-, uitstroom-, en doorstroom van medewerkers valt. Het gaat hierbij om entiteiten die binnen een organisatie werkzaam zijn en die binnen de organisatie toegang mogen hebben tot bepaalde resources. De volgende domeinen zijn overheid naar overheid (oftewel samenwerking tussen ketenpartijen) en overheid naar burgers. Voor ieder domein geldt dat op een specifieke manier gebruikers geïdentificeerd moeten worden en toegang moet worden verleend op basis van toegangsregels. Helemaal rechts in het figuur wordt weergegeven dat ook IoT devices toegang verleend kan worden. Het gaat hier dus om devices, componenten, rpa’s, robots en dergelijke. Deze IoT devices bevatten vaak sensoren die gegevens en signalen afleveren en ook zij hebben dus toegang nodig. Uiteraard moeten ook deze IoT-devices beheerd worden.
 
@@ -31,13 +31,13 @@ Per domein is de herkomst van identiteiten verschillend. Bij de privileged acces
 ### Toegangsbeheer
 Om toegangsbeheer te duiden en aan te geven wat de knelpunten zijn bij de inrichting die nu veelal binnen organisaties wordt gebruikt wordt een voorbeeld uitgewerkt. Dit voorbeeld is gebaseerd op het gebruik van een Identity Governance and Administration (IGA) oplossing. Een IGA-oplossing beheert digitale identiteiten en toegangsrechten over meerdere systemen binnen een organisatie. 
 
-<img src="./assets/toegangsbeheer.png" alt="IAM vakgebied" width="300"/>
+<img src="./assets/toegangsbeheer.png" alt="IAM vakgebied" width="500"/>
 
 In bovenstaand model stromen medewerkers in via HR-processen vanuit het HR-systeem. De IGA-oplossing krijgt mutaties vanuit het HR-systeem door en administreert onder andere bij welke afdeling medewerkers behoren, welke taken zij gaan uitvoeren, wie de verantwoordelijk manager is en wat de rol van een medewerker binnen de organisatie is. Op grond van hiervan wordt vervolgens een account aangemaakt in een informatiesysteem, Active Directory of Cloudvoorziening. In dit geschetste basis IGA-model wordt het Role Based Access Control (RBAC) model gehanteerd. 
 
 Binnen het RBAC-model wordt iemand binnen de organisatie bekend als identiteit en krijgt hij of zijn niet afzonderlijke persoonlijke autorisaties maar autorisaties die op basis van een rol, of rollen, toegekend worden. Het RBAC-model kent zijn mogelijkheden maar ook zijn beperkingen. Het grote voordeel van dit model is dat het autorisatiebeheer door slim gebruik te maken van rollen grotendeels geautomatiseerd worden. Stel iemand komt in dienst en wordt krijgt als rol ‘medewerker financiën’. Op basis van deze rol kunnen aan de persoon autorisaties worden toegekend voor bijvoorbeeld folders op een server van de afdeling financiën, toegang tot het financieel systeem en misschien ook wel autorisaties voor functies in de Cloud. De medewerker kan dus op basis van een roltoekenning direct met de juiste autorisaties aan de slag. Op het moment dat de medewerker de organisatie verlaat kunnen de autorisaties ook automatisch worden ingetrokken op basis van een uitstroom bericht vanuit het HR-systeem. Het RBAC-model is het meest basale en bekende model van identity en access management. Kern van het model is dat het gaat over automatiseren van uitgifte van autorisaties. Onderstaand figuur geeft de basis van het model weer.
 
-<img src="./assets/autorisatie_1.png" alt="Autorisatie patronen" width="300"/>
+<img src="./assets/autorisatie_1.png" alt="Autorisatie patronen" width="500"/>
 
 Een persoon krijgt een bepaalde business rol, bijvoorbeeld ‘debiteurenbeheerder’. Op basis van die rol krijgt iemand toegang tot een applicatierol. Deze applicatierol is een verzameling autorisaties in een informatiesysteem.  In het geval dat de applicatierol ‘debiteurenmedewerker’ binnen het financieel systeem wordt gekoppeld aan de business rol ‘debiteurenbeheerder’ dan krijgt de persoon links in het figuur automatisch alle autorisaties rechts in het figuur. Van een persoon kan ook bepaald worden welke autorisaties deze toegekend heeft gekregen door te kijken welke business rol(len) de persoon heeft en deze te combineren met de autorisaties in de applicatierol(len). Ook kan in dit model vanuit een specifieke autorisatie bepaald worden welke accounts toegang hebben tot een bepaalde autorisatie door te bepalen in welke applicatierol de autorisatie is opgenomen, welke bedrijfsrol(len) gekoppeld zijn aan de applicatierol en welke accounts aan de bedrijfsrol gekoppeld zijn. Qua beheer en efficiency is RBAC een handig model wat mede door gemeenten op grote schaal wordt toegepast.
 
@@ -47,7 +47,7 @@ Een laatste belangrijke beperking van RBAC is het ontbreken van context bij auto
 
 Het RBAC-model is vanuit beheeroogpunt ideaal maar het levert vanuit governance oogpunt dus helaas niet de controle en governance die gewenst is. Als het RBAC-model gehanteerd wordt moet er dus iets worden toegevoegd om die controle rondom de context wel te verkrijgen. Om dit vraagstuk op te lossen is onderstaand Access Governance model ontwikkeld.
 
-<img src="./assets/access_governance.png" alt="Access Governancerisatie" width="300"/>
+<img src="./assets/access_governance.png" alt="Access Governancerisatie" width="500"/>
 
 In bovenstaand model wordt het verlenen van toegang opgedeeld in vijf lagen waarbij elke laag een eigen aandachtsgebied kent. Dit model moet niet verward worden met de Common Ground vijf lagen maar kent wel raakvlakken met dit model.
 
@@ -69,14 +69,14 @@ Welke identity providers worden vertrouwd als betrouwbare providers is bij het g
 ## Zero Trust concept
 Het zero trust concept is beschreven in de NIST 800-207. In dit model wordt een verzoek tot toegang tot een resource gevalideerd door een Policy Enforcement Point (PEP). Dit component borgt dat van ieder verzoek wat wordt gedaan op basis van toegangsregels wordt bepaald of de identiteit die het verzoek doet toegang mag krijgen tot de resource. Het maakt hierbij niet uit of de identiteit een lokale- of een gefedereerde identiteit is. De bepaling of aan de toegangsregels voldaan wordt is de verantwoordelijkheid van een Policy Decision Point (PDP). Het PEP biedt een aantal attributen, waaronder de identiteit en het type identity provider, aan het PDP aan. Het PDP zal op basis van deze attributen de toegangsregels uitvoeren en het resultaat terugkoppelen aan het PEP. Het PEP geeft op basis van die uitkomst wel of geen toegang tot de resource.
 
-<img src="./assets/zero_trust_1.png" alt="Zero Trust" width="300"/>
+<img src="./assets/zero_trust_1.png" alt="Zero Trust" width="500"/>
 
 De toegangsregels worden via een Policy Administration Point (PAP) beschreven en vastgelegd. Het PDP heeft de mogelijkheid om naast de attributen die van het PEP ontvangen worden op basis van toegangsregels nog andere attributen op te vragen bij informatiesystemen. Het kan dit zelf doen of het kan hiervoor een Policy Information Point (PIP) gebruiken. Onderstaand figuur geeft de verschillende onderdelen weer die een rol spelen in het zero trust model.
 
 ## Projectie van Zero Trust concept op NORA referentiemodel 
 Als de concepten van het zero trust model worden geprojecteerd op de NORA referentiearchitectuur op het gebied van identity en access management dan ontstaat onderstaand beeld. Het onderdeel ‘Toegang verlenen’ van het model wordt ingevuld door een policy enforcement en een policy decision point. Het beheer van de bevoegdheden kan in dit model worden uitgevoerd met behulp van een policy administration point. In de evealuatie van de toegangsrechten kan gebruik worden gemaakt van de attributen die van de identity provider ontvangen worden. Deze attributen zullen bij gebruik van de voor de overheid toegestane middelen onder andere de identiteit, het type authenticatiemiddel en het betrouwbaarheidsniveau van het middel zijn.
 
-<img src="./assets/nora_2.png" alt="NORA en toegangsverlening" width="300"/>
+<img src="./assets/nora_2.png" alt="NORA en toegangsverlening" width="500"/>
 
 Door toepassing van het bovenstaande model ontstaat een dynamiek die bij toegangsverlening op het gebied van toegekende rollen (RBAC) ontbreekt. Door gebruik te maken van attributen en policies is toegangsverlening op basis van context mogelijk gemaakt. Het is mogelijk om in de afweging van toegangsverlening attributen mee te nemen als de tijd van de dag of de locatie van waar de identiteit is aangemeld. Ook is het mogelijk om bijvoorbeeld het BSN, OIN of intern HR-id van de aangemelde identiteit in een toegangsregel mee te nemen. Hierdoor wordt het bijvoorbeeld mogelijk om te borgen dat een medewerker een bepaalde transactie enkel mag afhandelen als de medewerker zelf niet betrokken is als belanghebbende binnen de transactie. Een medewerker mag bijvoorbeeld geen vergunningsaanvraag afhandelen waarvoor hij of zij zelf de aanvrager is.
 
@@ -86,7 +86,7 @@ rolgebaseerde toegang gedaan. De applicaties stellen in dit geval de rollen vast
 
 In de volgende evolutie van informatiesystemen die momenteel plaats aan het vinden is wordt de toegang tot applicaties (APIs) geregeld via een API-gateway. In deze situatie wordt door de applicatie zelf nog steeds de autorisatie uitgevoerd. De API-gateway kan bepalen of een identiteit de API mag aanroepen maar de API zelf bevat nog toegangsregels die (nader) bepalen of de functie door de identiteit uitgevoerd mag worden. Een laatste stap die in de komende jaren genomen zal worden is het verwijderen van de toegangsregels uit de APIs en het centraal definiëren en afdwingen van deze regels. 
 
-<img src="./assets/transitie.png" alt="Transitie" width="300"/>
+<img src="./assets/transitie.png" alt="Transitie" width="500"/>
 
 Bovenstaand model geeft de evolutie aan die informatiesystemen doorlopen vanuit de ‘oude’ legacy applicaties naar applicaties die gebaseerd zijn op (micro)services. Het model wat in de huidige ontwikkeling van informatiesystemen het meest wordt toegepast is het derde model van links. Het model uiterst rechts is het model waar vanuit de GEMMA referentiearchitectuur naar wordt gestreefd. In dit model zijn identiteiten federatief en worden toegangsregels centraal bijgehouden en uitgevoerd. De diensten (APIs) voeren in dit model zelf geen autorisatieregels meer uit en kennen geen identiteiten. 
 
