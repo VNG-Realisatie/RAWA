@@ -5,4 +5,4 @@ title: "Inrichtingsscenarios voor het werken met API's"
 ---
 
 # Inrichtingsscenarios voor het werken met API's
-[Inrichtingsscenarios](./assets/Inrichtingsscenarios.pptx)
+Een Powerpoint presentatie met daarin een beschrijving van de inrichtingsscenarios is [hier](./assets/Inrichtingsscenarios.pptx) te vinden.
