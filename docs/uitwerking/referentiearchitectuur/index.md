@@ -25,7 +25,7 @@ Feedback? Hoe u kunt [bijdragen](https://github.com/VNG-Realisatie/API-Kennisban
 
 ## Implementatiescenario RAWA
 
-<img src="./assets/referentiearchitectuur.png" alt="Referentiearchitectuur en -componenten" width="500"/>
+<img src="./assets/referentiearchitectuur.png" alt="Referentiearchitectuur en -componenten" width="800"/>
 
 ## Toelichting architectuurplaat
 Realisatie van de bovenstaande omschreven stack heeft als hoofdzakelijke doelstelling het het op een gecontroleerde manier bieden van toegang tot API's. De manier van verlenen van toegang, zoals hierboven omschreven, is tweeledig. Allereerst vindt er als primaire beveiliging, een autorisatiecheck plaats ten aanzien van de vraag of een gebruiker of client überhaupt de API mag aanroepen. Daarna vindt er autorisatie plaats, waar bepaald wordt of het verzoek voldoet aan vooraf gedefinieerd beleid. Op deze manier is er een uiterst fijnmazig toegangsbeleid te realiseren. Het exacte verloop van dit proces kunt u hieronder vinden.
