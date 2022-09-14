@@ -24,11 +24,7 @@ nav:
       - title: GEMMA aanpassingen  
         path: /uitwerking/gemma
       - title: Inrichtingsscenarios  
-        path: /uitwerking/inrichtingsscenarios  
-      - title: Implementatiescenarios
-        path: /uitwerking/implementatiescenarios
-      - title: Best practices
-        path: /uitwerking/practices   
+        path: /uitwerking/inrichtingsscenarios   
       - title: Terminologie  
         path: /uitwerking/terminologie
   - title: Vraag en antwoord 
