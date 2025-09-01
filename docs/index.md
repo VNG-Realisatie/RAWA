@@ -27,16 +27,9 @@ Het project Referentiearchtiectuur Werken met API’s is in 2023 afgerond en hee
 - [Gemeentelijke best-practices](./uitwerking/practices/index.md)
 - [Terminologie](./uitwerking/terminologie/index.md)
 
-## Bijdragen aan het project
-Gemeenten en leveranciers worden aangemoedigd om bij te dragen aan het project. Onderstaande links geven informatie over hoe u uw bijdrage kan leveren.
-
-- Hoe u kunt [bijdragen](https://github.com/VNG-Realisatie/Tutorial/blob/master/CONTRIBUTING.md){:target="_blank" rel="noopener"} aan dit project
-- [Omgangsvormen](https://github.com/VNG-Realisatie/Tutorial/blob/master/CODE_OF_CONDUCT.md){:target="_blank" rel="noopener"}
-
-
 ## Beheer en ondersteuning
 Contact: standaarden.ondersteuning@vng.nl
 
 ## Licentie
-Copyright &copy; VNG Realisatie 2022
+Copyright &copy; VNG Realisatie 2025
 Licensed under the [EUPL](https://github.com/VNG-Realisatie/IAM/blob/master/LICENSE.md){:target="_blank" rel="noopener"}
