@@ -9,17 +9,14 @@ Met de transitie naar de informatiekundige visie Common Ground gaan gemeenten st
 
 Nu een aantal standaard API-specificaties is gerealiseerd en vastgesteld (onder andere Zaakgericht werken (ZGW) en de HaalCentraal API’s voor ontsluiten van basisregistraties) wordt het tijd om deze breed in gebruik te nemen. Gemeenten hebben daarbij aangegeven dringend behoefte te hebben aan een 'kookboek' of referentiearchitectuur waarin is beschreven welke referentiecomponenten nodig zijn en hoe ze moeten worden ingericht om veilig en transparant met API's te kunnen werken. Waarbij er ruimte blijft voor lokaal beleid en er dus verschillende technische implementaties mogelijk blijven.
 
-In het GEMMA Identity en Access Management project wordt door VNG Realisatie samen met een externe kennispartner (SonicBee) gewerkt aan het uitwerken van een referentiearchitectuur voor het veilig en transparant kunnen gebruiken van API's.
+In het GEMMA Identity en Access Management project is door VNG Realisatie samen met een externe kennispartner (SonicBee) gewerkt aan het uitwerken van een referentiearchitectuur voor het veilig en transparant kunnen gebruiken van API's. 
 
 ## Deliverables
-Het project Referentiearchtiectuur Werken met API’s gaat in de eerste helft van 2022 de volgende resultaten opleveren:
+Het project Referentiearchtiectuur Werken met API’s is in 2023 afgerond en heeft de volgende resultaten opgeleverd:
 * Uitbreiding én aanpassing van de GEMMA modelarchitectuur met referentiecomponenten en bijbehorende functionele afbakening;
 * Beschrijving van de meest gerede inrichtingsscenario’s van de verschillende componenten;
 * Beschrijving van bestaande (best) practices van gemeenten op de genoemde gebieden;
 * Handreiking voor implementatie (alleen wat nodig is ter overbrugging naar API-documentatie).
-
-## Status 
-Het project is in begin februari 2022 gestart. De verwachtte doorlooptijd van de eerste fase van het project is drie tot vier maanden. Het projectteam werkt in sprints van drie weken. De sprintplanning van het project is op deze site te vinden. Na afloop van een sprint worden de resulaten van de sprint in een publiek toegankelijke demo gepresenteerd.
 
 ## Uitwerking deelonderwerpen
 - [Scope van het project](./scope.md)
