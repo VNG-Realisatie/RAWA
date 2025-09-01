@@ -24,7 +24,6 @@ Het project Referentiearchtiectuur Werken met API’s is in 2023 afgerond en hee
 - [Introductie tot Toegang en informatiebeveiliging](./uitwerking/introductie/index.md)
 - [Referentiearchitectuur](./uitwerking/referentiearchitectuur/index.md)
 - [Uitbreiding GEMMA](./uitwerking/gemma/index.md)
-- [Gemeentelijke best-practices](./uitwerking/practices/index.md)
 - [Terminologie](./uitwerking/terminologie/index.md)
 
 ## Beheer en ondersteuning
