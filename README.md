@@ -1,3 +1,8 @@
+| Eigenaar | Ingevuld door |
+| --- | --- |
+| Kennis centrum Architectuur | Arnoud Quanjer |
+<hr/>
+
 Met de transitie naar de informatiekundige visie Common Ground gaan gemeenten steeds meer gebruik maken van APIs voor het ophalen en muteren van gegevens in bronregistraties en het ontvangen van notificaties over plaatsgevonden gebeurtenissen. Ook is de verwachting dat gemeenten in toenemende mate zelf APIs gaan aanbieden voor in- en extern gebruik. 
 
 Nu een aantal standaard API-specificaties is gerealiseerd en vastgesteld (onder andere Zaakgericht werken (ZGW) en de HaalCentraal API’s voor ontsluiten van basisregistraties) wordt het tijd om deze breed in gebruik te nemen. Gemeenten hebben daarbij aangegeven dringend behoefte te hebben aan een 'kookboek' of referentiearchitectuur waarin is beschreven welke referentiecomponenten nodig zijn en hoe ze moeten worden ingericht om veilig en transparant met API's te kunnen werken. Waarbij er ruimte blijft voor lokaal beleid en er dus verschillende technische implementaties mogelijk blijven.
